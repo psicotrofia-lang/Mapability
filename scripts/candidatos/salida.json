@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T14:31:34.198Z",
+ "generado": "2026-10-28T14:43:33.421Z",
  "atencion_temprana": [
   {
    "municipio": "Alcalá de Henares",
@@ -937,5 +937,965 @@
    }
   }
  ],
- "osm": []
+ "osm": [
+  {
+   "osm": "node/170992441",
+   "lat": 40.4034965,
+   "lng": -3.6967265,
+   "tags": {
+    "name": "Asociación de Sordos de Madrid (ASM)",
+    "office": "association"
+   }
+  },
+  {
+   "osm": "node/1922637398",
+   "lat": 40.4661693,
+   "lng": -3.6905628,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "3",
+    "addr:postcode": "28046",
+    "addr:street": "Plaza de Castilla",
+    "amenity": "doctors",
+    "email": "info@gonzalezycampos.es",
+    "healthcare": "doctor",
+    "healthcare:speciality": "dermatology;paediatric_dentistry;maxillofacial_surgery;orthodontics;facial_surgery;paediatric_dermatology;children_stomatology;orthognathic_surgery;endocrinology;endodontics;dentist;plastic_surgery",
+    "name": "Clínica González & Campos",
+    "operator": "Dr Sergio González Otero;Dra Minia Campos Domínguez;Dra Paola Beltri Orta;Dr Eduardo Tapia Vidal;Dra Silvia Méndez Eirey",
+    "phone": "+34 91 315 81 85",
+    "website": "https://www.gonzalezycampos.es/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/2955184151",
+   "lat": 40.4708093,
+   "lng": -3.7203695,
+   "tags": {
+    "addr:housenumber": "25",
+    "addr:street": "Calle Valle de Mena",
+    "healthcare": "speech_therapist",
+    "name": "Parole Logopedia"
+   }
+  },
+  {
+   "osm": "node/2991903270",
+   "lat": 40.4018124,
+   "lng": -3.6271166,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "24",
+    "addr:postcode": "28030",
+    "addr:street": "Calle de Florencia",
+    "amenity": "social_facility",
+    "name": "Centro de Día Florencia Alzheimer",
+    "social_facility": "day_care",
+    "social_facility:for": "mental_health"
+   }
+  },
+  {
+   "osm": "node/3645135027",
+   "lat": 40.4471783,
+   "lng": -3.6697472,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "135",
+    "addr:postcode": "28002",
+    "addr:street": "Calle de López de Hoyos",
+    "amenity": "dentist",
+    "brand": "Vitaldent",
+    "brand:wikidata": "Q5860599",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics;dental_oral_maxillo_facial_surgery;paediatric_dentistry;dentistry",
+    "name": "Clinica Dental López de Hoyos",
+    "opening_hours": "Mo-Su 10:00-21:00"
+   }
+  },
+  {
+   "osm": "node/4685423230",
+   "lat": 40.4399928,
+   "lng": -3.7063465,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "8",
+    "addr:postcode": "28003",
+    "addr:street": "Calle de Boix y Morer",
+    "amenity": "social_facility",
+    "check_date": "2024-08-07",
+    "contact:phone": "+34 91 535 76 74",
+    "name": "Centro de Día Chamberí",
+    "social_facility": "day_care",
+    "social_facility:for": "mental_health",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "osm": "node/4879085581",
+   "lat": 40.4905345,
+   "lng": -3.6495085,
+   "tags": {
+    "healthcare": "speech_therapist",
+    "name": "Bla Bla",
+    "opening_hours": "Mo-Fr 09:00-21:00",
+    "phone": "+34 91 755 57 34",
+    "website": "https://www.logopediasanchinarro.es/"
+   }
+  },
+  {
+   "osm": "node/4966769346",
+   "lat": 40.4523393,
+   "lng": -3.6523014,
+   "tags": {
+    "amenity": "social_facility",
+    "check_date": "2024-06-09",
+    "name": "Residencia Infantil El Encinar",
+    "social_facility": "group_home",
+    "social_facility:for": "child"
+   }
+  },
+  {
+   "osm": "node/5025351369",
+   "lat": 40.4443517,
+   "lng": -3.6725752,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "63",
+    "addr:postcode": "28002",
+    "addr:street": "Calle de Luis Cabrera",
+    "name": "Confederación Española de Personas con Discapacidad Física y Orgánica (COCEMFE)",
+    "office": "association",
+    "phone": "+34 91 744 36 00",
+    "website": "https://www.cocemfe.es/"
+   }
+  },
+  {
+   "osm": "node/5113389366",
+   "lat": 40.5997077,
+   "lng": -3.7134805,
+   "tags": {
+    "amenity": "clinic",
+    "fixme": "Añadir las especialidsdes de: Análisis Clínicos, Angiología - C. Vascular, Diagnostico por Imagen, Traumatología",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dermatology;cardiology;general;urology;gynaecology;otolaryngology;paediatrics;orthopaedics;",
+    "name": "quirónsalud",
+    "operator": "Quirónsalud",
+    "operator:wikidata": "Q5886225",
+    "source": "survey"
+   }
+  },
+  {
+   "osm": "node/5650350248",
+   "lat": 40.4035473,
+   "lng": -3.6705796,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "7",
+    "addr:postcode": "28007",
+    "addr:street": "Calle Garibay",
+    "name": "Confederación Autismo España",
+    "office": "association",
+    "phone": "+34 91 591 34 09",
+    "website": "https://www.autismo.org.es/"
+   }
+  },
+  {
+   "osm": "node/6236012810",
+   "lat": 40.4752938,
+   "lng": -3.7146547,
+   "tags": {
+    "healthcare": "occupational_therapist",
+    "name": "Centro de terapias naturales"
+   }
+  },
+  {
+   "osm": "node/6236012811",
+   "lat": 40.4754688,
+   "lng": -3.7125303,
+   "tags": {
+    "healthcare": "occupational_therapist",
+    "name": "Centro de fisioterapia"
+   }
+  },
+  {
+   "osm": "node/7519900293",
+   "lat": 40.5065784,
+   "lng": -3.5324146,
+   "tags": {
+    "addr:city": "Paracuellos de Jarama",
+    "addr:housenumber": "26",
+    "addr:postcode": "28860",
+    "addr:street": "Calle Chorrillo Alta",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics",
+    "name": "Centro de Salud Paracuellos de Jarama",
+    "operator": "Comunidad de Madrid",
+    "operator:type": "public",
+    "operator:wikidata": "Q578788",
+    "phone": "+34 916 58 21 57",
+    "website": "http://sanidadmadrid.org",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/7905393650",
+   "lat": 40.3904896,
+   "lng": -3.6921491,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "2",
+    "addr:postcode": "28045",
+    "addr:street": "Calle del Rodio",
+    "description": "El centro pone a su disposición todos sus conocimientos y experiencias para poder atender cualquier tipo de consulta particular, facilitar información o aconsejar sobre la variedad de tratamientos a realizar en el campo deportivo, traumatológico, respirat",
+    "email": "consultas@fisioterapiasantos.es",
+    "health_facility:type": "office",
+    "health_specialty:physiotherapy": "yes",
+    "healthcare": "physiotherapist",
+    "healthcare:speciality": "paediatrics;physiotherapy",
+    "medical_system:western": "yes",
+    "name": "Fisioterapia Santos",
+    "office": "therapist",
+    "phone": "+34 667 069 096",
+    "website": "https://fisioterapiasantos.es/"
+   }
+  },
+  {
+   "osm": "node/7973737780",
+   "lat": 40.4717133,
+   "lng": -3.6981559,
+   "tags": {
+    "amenity": "social_facility",
+    "name": "Afasia",
+    "social_facility:for": "disabled",
+    "website": "https://afasia.org/"
+   }
+  },
+  {
+   "osm": "node/8149212019",
+   "lat": 40.3780249,
+   "lng": -3.6238499,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "42",
+    "addr:postcode": "28031",
+    "addr:street": "Calle de la Sierra Morena",
+    "addr:unit": "Local",
+    "check_date:opening_hours": "2024-10-06",
+    "description": "Centro de Logopedia en Madrid. Nuestra Clínica de Logopedia está en Villa de Vallecas. Nuestros servicios son: - Logopeda Infantil - Logopedia Adultos - Logopedia Tercera Edad - Logopedia a Domicilio Lo que nos diferencia es la importancia que concedemos",
+    "email": "info@logopediaymas.es",
+    "healthcare": "speech_therapist",
+    "image": "https://www.logopediaymas.es/wp-content/uploads/2020/10/logopedia-online.jpg",
+    "level": "0",
+    "name": "Logopedia y Más Villa de Vallecas",
+    "opening_hours": "Mo-Fr 09:00-22:00",
+    "operator": "Logopedia y Más",
+    "phone": "+34652988487",
+    "website": "https://www.logopediaymas.es",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/8149218921",
+   "lat": 40.3972951,
+   "lng": -3.6077082,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "12",
+    "addr:postcode": "28032",
+    "addr:street": "Calle de Marmolina",
+    "addr:unit": "C",
+    "description": "Centro de Logopedia en Madrid. Nuestra Clínica de Logopedia está en Villa de Vallecas. Nuestros servicios son: - Logopeda Infantil - Logopedia Adultos - Logopedia Tercera Edad - Logopedia a Domicilio Lo que nos diferencia es la importancia que concedemos",
+    "email": "info@logopediaymas.es",
+    "healthcare": "speech_therapist",
+    "image": "https://www.logopediaymas.es/wp-content/uploads/2020/10/patologias-de-logopedia-en-madrid.jpg",
+    "level": "0",
+    "name": "Logopedia y Más Vicálvaro",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-16:00",
+    "operator": "Logopedia y Más",
+    "phone": "+34652988487",
+    "website": "https://www.logopediaymas.es/logopeda-infantil/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/8889438971",
+   "lat": 40.3685378,
+   "lng": -3.5941425,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "4",
+    "addr:postcode": "28051",
+    "addr:street": "Calle de Juan Antonio Bardem",
+    "addr:unit": "B",
+    "description": "Somos un Centro de Logopedia en Madrid. Cada logopeda de nuestra clínica está debidamente colegiada por el Colegio de Logopedas en Madrid. Nos dedicamos exclusivamente a la logopedia, por lo que cada sesión está cuidada al mínimo detalle. Nuestro objetivo",
+    "email": "info@logopediaymas.es",
+    "healthcare": "speech_therapist",
+    "healthcare:speciality": "general;paediatrics",
+    "image": "https://www.logopediaymas.es/wp-content/uploads/2021/06/logopedia-online-pau-vallecas.jpg",
+    "name": "Logopedia y Más",
+    "opening_hours": "Mo-Fr 09:00-22:00",
+    "operator": "Logopedia y Más",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:electronic_purses": "yes",
+    "phone": "+34652988487",
+    "start_date": "2021-06-01",
+    "website": "https://www.logopediaymas.es/madrid/ensanche-de-vallecas/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/9154026273",
+   "lat": 40.4168928,
+   "lng": -3.5742639,
+   "tags": {
+    "addr:city": "Coslada",
+    "addr:housenumber": "12",
+    "addr:place": "Plaza del Mar Egeo",
+    "addr:postcode": "28821",
+    "addr:unit": "Local 4",
+    "email": "info@centrokoru.es",
+    "healthcare": "speech_therapist",
+    "healthcare:speciality": "speech_therapy",
+    "name": "Centro Koru",
+    "opening_hours": "Mo-Fr 11:30-13:30,15:30-20:00; Sa 10:30-13:30",
+    "operator": "Lidia Escribano",
+    "phone": "+34 648 785 568",
+    "website": "https://www.centrokoru.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/9271890934",
+   "lat": 40.4704949,
+   "lng": -3.6856181,
+   "tags": {
+    "addr:housenumber": "25",
+    "addr:street": "Calle de Agustín de Foxá",
+    "amenity": "social_facility",
+    "email": "info@ahoracentros.es",
+    "name": "Ahora centros",
+    "opening_hours": "Mo-Th 10:00-14:00,16:30-19:45; Fr 10:00-14:00",
+    "phone": "+34913235505;+34661489476",
+    "social_facility": "group_home",
+    "social_facility:for": "mental_health",
+    "website": "https://ahoracentros.es"
+   }
+  },
+  {
+   "osm": "node/9725928573",
+   "lat": 40.4706282,
+   "lng": -3.8748409,
+   "tags": {
+    "addr:city": "Majadahonda",
+    "addr:housenumber": "35",
+    "addr:postcode": "28220",
+    "addr:street": "Calle Granadilla",
+    "check_date:opening_hours": "2026-02-10",
+    "description": "Logros es un centro especializado en diagnóstico y tratamiento integral que cuenta con un equipo de profesionales de la salud y la educación cuyo objetivo es lograr la máxima independencia de las personas que atiende. Atendemos a niños, adolescentes y may",
+    "healthcare": "occupational_therapist",
+    "name": "Centro Logros",
+    "opening_hours:signed": "no",
+    "phone": "+34 91 634 77 22",
+    "website": "https://www.centrologros.es/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/9758698890",
+   "lat": 40.4701269,
+   "lng": -3.8753208,
+   "tags": {
+    "addr:city": "Majadahonda",
+    "addr:housenumber": "8",
+    "addr:postcode": "28220",
+    "addr:street": "Calle del Sacrificio",
+    "check_date:opening_hours": "2026-05-13",
+    "healthcare": "occupational_therapist",
+    "name": "Andaconmigo",
+    "opening_hours": "Mo-Fr 10:00-13:30,16:00-20:00; Sa 10:00-14:00; Su,PH off",
+    "phone": "+34 655365856",
+    "website": "https://andaconmigo.com/project/majadahonda-2/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/10220395207",
+   "lat": 40.4075219,
+   "lng": -3.6765963,
+   "tags": {
+    "healthcare": "occupational_therapist",
+    "name": "Espacio Físico"
+   }
+  },
+  {
+   "osm": "node/10753912225",
+   "lat": 40.4405994,
+   "lng": -3.6954471,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "29",
+    "addr:postcode": "28003",
+    "addr:street": "Calle de Espronceda",
+    "branch": "Chamberí",
+    "email": "chamberi@andaconmigo.com",
+    "healthcare": "psychotherapist",
+    "healthcare:speciality": "children's_therapy;speech_therapy;cognitive;language;child_therapy;social-emotional;socialization;psychology;psychomotricity;pedagogy;neurological_physiotherapy;vojta_therapy;bobath_approach",
+    "name": "anda CONMiGO",
+    "opening_hours": "Mo-Fr 11:00-14:00, 16:00-20:00",
+    "operator": "anda CONMiGO",
+    "phone": "+34 912 938 372",
+    "website": "https://andaconmigo.com"
+   }
+  },
+  {
+   "osm": "node/11033107838",
+   "lat": 40.4687555,
+   "lng": -3.7003566,
+   "tags": {
+    "name": "Asociación Española de Familias de Personas con Sordoceguera",
+    "office": "association",
+    "phone": "+34 917335208;+34 917334017",
+    "short_name": "APASCIDE",
+    "website": "https://www.apascide.org/"
+   }
+  },
+  {
+   "osm": "node/11836798605",
+   "lat": 40.4387272,
+   "lng": -3.7165127,
+   "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Calle de Hilarión Eslava",
+    "amenity": "clinic",
+    "check_date": "2024-04-22",
+    "healthcare": "clinic",
+    "name": "Neuromed"
+   }
+  },
+  {
+   "osm": "node/12068019195",
+   "lat": 40.5521786,
+   "lng": -3.6174247,
+   "tags": {
+    "addr:city": "San Sebastián de los Reyes",
+    "addr:housenumber": "12",
+    "addr:postcode": "28700",
+    "addr:street": "Avenida de Somosierra",
+    "addr:unit": "4",
+    "healthcare": "yes",
+    "healthcare:speciality": "occupational",
+    "name": "ASPY Prevención | San Sebastián de los Reyes",
+    "operator": "ASPY",
+    "phone": "+34916592590",
+    "website": "https://www.aspyprevencion.com/"
+   }
+  },
+  {
+   "osm": "node/12204690971",
+   "lat": 40.4387389,
+   "lng": -3.7104322,
+   "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Neurología Clínica Madrid",
+    "phone": "+34911042857",
+    "website": "https://neurologiaclinica.es/"
+   }
+  },
+  {
+   "osm": "node/12373848320",
+   "lat": 40.4167855,
+   "lng": -3.572743,
+   "tags": {
+    "addr:city": "Coslada",
+    "addr:housenumber": "4",
+    "addr:postcode": "28821",
+    "addr:street": "Plaza del Mar Egeo",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "paediatrics",
+    "name": "Dra. Charo Vicente Vicente",
+    "opening_hours": "Mo-Fr 15:30-19:00; Sa 11:00-13:00",
+    "phone": "+34 916 69 56 56"
+   }
+  },
+  {
+   "osm": "node/12918884143",
+   "lat": 40.404223,
+   "lng": -3.7169658,
+   "tags": {
+    "amenity": "clinic",
+    "brand": "Quirónprevención",
+    "brand:wikidata": "Q140050574",
+    "healthcare": "clinic",
+    "healthcare:speciality": "occupational",
+    "name": "Quirónprevención"
+   }
+  },
+  {
+   "osm": "node/12924800790",
+   "lat": 40.3825686,
+   "lng": -3.7672372,
+   "tags": {
+    "check_date": "2026-06-30",
+    "healthcare": "speech_therapist",
+    "name": "Feedback",
+    "website": "https://feedbacklogopedia.com/"
+   }
+  },
+  {
+   "osm": "node/13249961253",
+   "lat": 40.3180409,
+   "lng": -3.6969924,
+   "tags": {
+    "healthcare": "speech_therapist",
+    "name": "Fisioterapia"
+   }
+  },
+  {
+   "osm": "node/13293915878",
+   "lat": 40.4510261,
+   "lng": -3.8752518,
+   "tags": {
+    "addr:city": "Majadahonda",
+    "addr:housenumber": "1",
+    "addr:postcode": "28222",
+    "addr:street": "Calle Manuel de Falla",
+    "amenity": "clinic",
+    "check_date:opening_hours": "2025-11-11",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "healthcare:speciality": "gynaecology;ophthalmology;paediatrics;orthopaedics;internal;otolaryngology;cardiology;urology;surgery;neurology;anaesthetics;allergology;angiology;cardiothoracic_surgery;oncology;dermatology;neurosurgery",
+    "mapillary": "887207497802461",
+    "name": "Consultas externas",
+    "opening_hours:signed": "no",
+    "operator": "Comunidad de Madrid",
+    "operator:type": "government",
+    "operator:wikidata": "Q578788",
+    "phone": "+34 91 191 60 00",
+    "website": "https://www.comunidad.madrid/hospital/puertadehierro/profesionales/servicios-generales-clinicos/radiodiagnostico",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "node/13477743509",
+   "lat": 40.4066431,
+   "lng": -3.6716789,
+   "tags": {
+    "addr:floor": "1A",
+    "addr:housenumber": "42",
+    "addr:street": "Avenida del Mediterráneo",
+    "amenity": "social_facility",
+    "name": "Asociación Alanda",
+    "social_facility:for": "child",
+    "website": "https://asociacionalanda.org/"
+   }
+  },
+  {
+   "osm": "node/13510115294",
+   "lat": 40.3446397,
+   "lng": -3.6859311,
+   "tags": {
+    "amenity": "social_facility",
+    "email": "centronavas@afandice.org",
+    "name": "Centro de Día Navas de Tolosa",
+    "social_facility:for": "disabled"
+   }
+  },
+  {
+   "osm": "node/13593073643",
+   "lat": 40.5514457,
+   "lng": -3.6593031,
+   "tags": {
+    "addr:city": "Alcobendas",
+    "addr:housenumber": "5",
+    "addr:postcode": "28100",
+    "addr:street": "Calle Sueños",
+    "healthcare": "psychotherapist",
+    "name": "NeuroDei Psicólogos infantiles y juveniles",
+    "phone": "+34 684 242 377",
+    "website": "https://www.neurodei.com/"
+   }
+  },
+  {
+   "osm": "node/13919957823",
+   "lat": 40.4617834,
+   "lng": -3.7079356,
+   "tags": {
+    "amenity": "social_facility",
+    "name": "Manava Centro de Día",
+    "social_facility": "day_care",
+    "social_facility:for": "mental_health",
+    "website": "https://www.manava.es/"
+   }
+  },
+  {
+   "osm": "node/14246209251",
+   "lat": 40.3795726,
+   "lng": -3.6767424,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "4",
+    "addr:postcode": "28053",
+    "addr:street": "Calle Mudela",
+    "name": "Asociación Asperger Madrid",
+    "office": "association",
+    "opening_hours": "Lunes - Viernes de 09:00 a 19:00",
+    "phone": "917862728",
+    "website": "http://www.aspergermadrid.eu/"
+   }
+  },
+  {
+   "osm": "node/14246573185",
+   "lat": 40.3795854,
+   "lng": -3.6767937,
+   "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Calle Mudela",
+    "name": "Asociación Asperger Madrid",
+    "office": "association"
+   }
+  },
+  {
+   "osm": "way/33804952",
+   "lat": 40.3333168,
+   "lng": -3.7407391,
+   "tags": {
+    "amenity": "social_facility",
+    "name": "Centro de Atención a Personas con Discapacidad Física de Leganés",
+    "short_name": "CAMF de Leganés",
+    "social_facility": "day_care",
+    "social_facility:for": "disabled",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "way/86402397",
+   "lat": 40.5906378,
+   "lng": -3.5614612,
+   "tags": {
+    "amenity": "social_facility",
+    "building": "yes",
+    "name": "Cottolengo del Padre Alegre",
+    "social_facility:for": "mental_health",
+    "source": "PNOA",
+    "source:date": "2009"
+   }
+  },
+  {
+   "osm": "way/98502702",
+   "lat": 40.4768223,
+   "lng": -3.8681379,
+   "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "check_date": "2024-07-25",
+    "description": "Presta atención continuada como centro de continuidad de cuidados de enfermería sábados, domingos y festivos de 9 a 21 horas. El centro está autorizado para el otorgamiento y solicitud de registro del documento de Instrucciones Previas.",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;psychiatry;paediatrics;blood_check",
+    "mapillary": "2236190063504124",
+    "name": "Centro de Salud Cerro del Aire",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su off",
+    "operator": "Comunidad de Madrid",
+    "operator:type": "government",
+    "operator:wikidata": "Q578788",
+    "phone": "+34 91 639 03 19",
+    "website": "https://www.comunidad.madrid/centros/centro-salud-cerro-aire",
+    "wheelchair": "yes",
+    "wikidata": "Q578788"
+   }
+  },
+  {
+   "osm": "way/240573612",
+   "lat": 40.3900953,
+   "lng": -3.6881611,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "5",
+    "addr:postcode": "28045",
+    "addr:street": "Calle del Cromo",
+    "amenity": "social_facility",
+    "building": "civic",
+    "name": "Centro de Día de Daño Cerebral Madrid – Apanefa",
+    "social_facility": "day_care",
+    "social_facility:for": "disabled",
+    "website": "https://danocerebralmadrid.org"
+   }
+  },
+  {
+   "osm": "way/274662323",
+   "lat": 40.4051901,
+   "lng": -3.6199289,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "2",
+    "addr:postcode": "28032",
+    "addr:street": "Bulevar de Indalecio Prieto",
+    "amenity": "social_facility",
+    "name": "Fundación Prodis",
+    "social_facility:for": "disabled"
+   }
+  },
+  {
+   "osm": "way/279163394",
+   "lat": 40.3723185,
+   "lng": -3.6267453,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "5",
+    "addr:postcode": "28031",
+    "addr:street": "Calle de Valderrebollo",
+    "amenity": "social_facility",
+    "barrier": "wall",
+    "name": "Centro Alzheimer Fundación Reina Sofía",
+    "phone": "+34913852300",
+    "social_facility:for": "mental_health"
+   }
+  },
+  {
+   "osm": "way/285378713",
+   "lat": 40.3287394,
+   "lng": -3.8825128,
+   "tags": {
+    "addr:city": "Móstoles",
+    "addr:housenumber": "38",
+    "addr:postcode": "28935",
+    "addr:street": "Avenida Olímpica",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics;physiatry",
+    "name": "Centro de Salud El Soto",
+    "opening_hours": "Mo-Fr 08:00-21:00",
+    "operator": "Servicio Madrileño de Salud",
+    "operator:short": "SERMAS",
+    "operator:type": "public",
+    "operator:wikidata": "Q6126030"
+   }
+  },
+  {
+   "osm": "way/295139021",
+   "lat": 40.3979453,
+   "lng": -3.6355153,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "235",
+    "addr:postcode": "28030",
+    "addr:street": "Calle de la Encomienda de Palacios",
+    "amenity": "social_facility",
+    "barrier": "wall",
+    "check_date": "2024-10-05",
+    "name": "Afanias - Moratalaz",
+    "social_facility:for": "disabled"
+   }
+  },
+  {
+   "osm": "way/328889800",
+   "lat": 40.499672,
+   "lng": -3.6927359,
+   "tags": {
+    "addr:housenumber": "45,47",
+    "addr:street": "Calle de la Cueva de Montesinos",
+    "amenity": "social_facility",
+    "name": "Centro de día, ocupacional y residencia Tres Olivos para personas con discapacidad intelectual",
+    "operator": "Fundación Síndrome de Down",
+    "social_facility": "yes",
+    "social_facility:for": "disabled",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "way/344099970",
+   "lat": 40.3852633,
+   "lng": -3.6582398,
+   "tags": {
+    "amenity": "social_facility",
+    "building": "yes",
+    "name": "Centro de Día",
+    "operator": "Fundación Carlos Martín",
+    "social_facility": "day_care",
+    "social_facility:for": "mental_health"
+   }
+  },
+  {
+   "osm": "way/350124159",
+   "lat": 40.4392777,
+   "lng": -3.6380464,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "12",
+    "addr:street": "Calle de Arturo Soria",
+    "amenity": "social_facility",
+    "name": "Centro Ocupacional Juana de Austria",
+    "operator": "Comunidad de Madrid",
+    "operator:type": "government",
+    "operator:wikidata": "Q578788",
+    "social_facility:for": "disabled"
+   }
+  },
+  {
+   "osm": "way/480261932",
+   "lat": 40.4668553,
+   "lng": -3.8764024,
+   "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "check_date:opening_hours": "2026-05-19",
+    "description": "Centro Médico Averroes ofrece instalaciones amplias y luminosas, atención personalizada y rigurosa, especialidades médicas y diagnósticas, últimos avances técnicos y profesionales cualificados. Concertado con la mayoría de sociedades médicas, transmite so",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics;ophthalmology;gynaecology;dermatology;radiology;physiatry;vaccination;allergology;cardiology;angiology;blood_check;neurology;otolaryngology;vascular_surgery;urology",
+    "name": "Centro Médico Averroes",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-14:00; Su,PH off",
+    "phone": "+34 91 639 08 38",
+    "website": "https://centromedicoaverroes.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "way/488199875",
+   "lat": 40.3815141,
+   "lng": -3.7338739,
+   "tags": {
+    "addr:housenumber": "177",
+    "addr:postcode": "28025",
+    "addr:street": "Calle del General Ricardos",
+    "amenity": "social_facility",
+    "email": "crl@fundacionbuensamaritano.es",
+    "name": "Taller Jardinería del CRL \"Carabanchel\"",
+    "opening_hours": "Mo-Fr 09:30-13:30",
+    "operator": "Fundación Buen Samaritano",
+    "social_facility:for": "disabled",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "way/514721330",
+   "lat": 40.3811917,
+   "lng": -3.7349131,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "177",
+    "addr:postcode": "28025",
+    "addr:street": "Calle del General Ricardos",
+    "amenity": "social_facility",
+    "building": "civic",
+    "name": "Mini Residencia \"Carabanchel\"",
+    "opening_hours": "24/7",
+    "social_facility": "group_home",
+    "social_facility:for": "mental_health",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "way/601793191",
+   "lat": 40.452128,
+   "lng": -3.620521,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "12",
+    "addr:postcode": "28042",
+    "addr:street": "Avenida Arroyo del Santo",
+    "amenity": "social_facility",
+    "building": "dormitory",
+    "name": "Residencia para personas con enfermedad mental Hortaleza",
+    "operator": "Fundación Manantial",
+    "social_facility": "nursing_home",
+    "social_facility:for": "mental_health"
+   }
+  },
+  {
+   "osm": "way/1361216903",
+   "lat": 40.4545416,
+   "lng": -3.8875658,
+   "tags": {
+    "amenity": "clinic",
+    "building": "hospital",
+    "building:levels": "1",
+    "contact:phone": "+34 911 04 83 92",
+    "description": "El Centro Médico Vithas Majadahonda está situado a 13 km del Hospital Vithas Madrid Aravaca, a 12 minutos, con fácil acceso a la M-50. Cuenta con una superficie de más de 1.000 m2, destaca su amplitud, luminosidad y su accesibilidad...",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics;ophthalmology;gynaecology;nephrology;dermatology;internal;diagnostic_radiology;otolaryngology;pulmonology;cardiology;urology;surgery;vaccination;vascular_surgery;physiatry",
+    "mapillary": "655713343562108",
+    "name": "Centro Médico Vithas Majadahonda",
+    "opening_hours": "Mo-Fr 07:45-21:30; Sa-Su off",
+    "operator": "Vithas",
+    "operator:type": "private",
+    "website": "https://vithas.es/centro/centro-medico-vithas-majadahonda/",
+    "wheelchair": "yes",
+    "wikidata": "Q5903209",
+    "wikipedia": "es:Vithas Sanidad"
+   }
+  },
+  {
+   "osm": "way/1422546698",
+   "lat": 40.4071885,
+   "lng": -3.7382807,
+   "tags": {
+    "amenity": "social_facility",
+    "building": "dormitory",
+    "name": "Residencia Manuel Gómez",
+    "operator": "Comunidad de Madrid",
+    "operator:type": "government",
+    "operator:wikidata": "Q578788",
+    "social_facility": "group_home",
+    "social_facility:for": "mental_health"
+   }
+  },
+  {
+   "osm": "way/1537567480",
+   "lat": 40.4615778,
+   "lng": -3.7240306,
+   "tags": {
+    "amenity": "social_facility",
+    "building": "yes",
+    "description": "Centro especializado en salud mental",
+    "name": "Bouco Madrid Puerta de Hierro",
+    "old_brand": "Sanitas",
+    "social_facility": "group_home",
+    "social_facility:for": "mental_health"
+   }
+  },
+  {
+   "osm": "relation/3013914",
+   "lat": 40.330129,
+   "lng": -3.7458937,
+   "tags": {
+    "amenity": "clinic",
+    "building": "hospital",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics",
+    "name": "Centro de Salud Jaime Vera",
+    "operator": "Servicio Madrileño de Salud",
+    "operator:short": "SERMAS",
+    "operator:type": "public",
+    "operator:wikidata": "Q6126030",
+    "type": "multipolygon"
+   }
+  },
+  {
+   "osm": "relation/4665522",
+   "lat": 40.3714911,
+   "lng": -3.661849,
+   "tags": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "62",
+    "addr:postcode": "28053",
+    "addr:street": "Calle del Cabo Machichaco",
+    "amenity": "clinic",
+    "building": "hospital",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics",
+    "name": "Centro de Salud José María Llanos",
+    "operator": "Servicio Madrileño de Salud",
+    "operator:short": "SERMAS",
+    "operator:type": "public",
+    "operator:wikidata": "Q6126030",
+    "operator:wikipedia": "es:Servicio Madrileño de Salud",
+    "type": "multipolygon"
+   }
+  }
+ ]
 }
