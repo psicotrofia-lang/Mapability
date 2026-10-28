@@ -1,0 +1,916 @@
+{
+ "generado": "2026-10-28T14:28:50.597Z",
+ "atencion_temprana": [
+  {
+   "municipio": "Alcalá de Henares",
+   "distrito": "",
+   "nombre": "APHISA",
+   "direccion": "C/ Serracines, 13, Loc. 9 y 10",
+   "cp": "28806",
+   "telefono": "91 883 12 27",
+   "email": "direcciontemprana@aphisa.es",
+   "web": "www.aphisa.es",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.4920501,
+    "lng": -3.3621142,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Alcobendas",
+   "distrito": "",
+   "nombre": "APAMA",
+   "direccion": "C/ Pablo Serrano, s/n",
+   "cp": "28100",
+   "telefono": "91 662 06 41",
+   "email": "apamacatco@yahoo.es",
+   "web": "www.apama.es",
+   "horario": "L-J 08:30-15:00 y 16:00-18:30; V 09:30-14:00",
+   "geo": {
+    "lat": 40.5373967,
+    "lng": -3.6387875,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Alcorcón",
+   "distrito": "",
+   "nombre": "APANSA",
+   "direccion": "C/ Timanfaya, 1-13",
+   "cp": "28924",
+   "telefono": "91 621 06 83",
+   "email": "a.apansa@gmail.com",
+   "web": "www.apansa.es",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.347632833539635,
+    "lng": -3.8123829662900444,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Aranjuez",
+   "distrito": "",
+   "nombre": "Aranjuez - Integrandes",
+   "direccion": "C/ del Sol, 12",
+   "cp": "28300",
+   "telefono": "91 875 48 83",
+   "email": "integrandes@integrandes.org",
+   "web": "www.integrandes.org",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.02733393656697,
+    "lng": -3.5994718535473043,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Aranjuez",
+   "distrito": "",
+   "nombre": "Aranjuez II",
+   "direccion": "C/ Andrés Martínez, 7",
+   "cp": "28300",
+   "telefono": "91 527 88 23 / 664 657 505",
+   "email": "integrandes@integrandes.org",
+   "web": "www.integrandes.org",
+   "horario": "L-V 11:30-19:30",
+   "geo": {
+    "lat": 40.0267692,
+    "lng": -3.6006772,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Arganda del Rey",
+   "distrito": "",
+   "nombre": "APSA",
+   "direccion": "C/ Cóndor, 9 y 11",
+   "cp": "28500",
+   "telefono": "91 871 11 90",
+   "email": "info@asociacionapsa.es",
+   "web": "www.asociacionapsa.es",
+   "horario": "L-V 08:30-17:00",
+   "geo": {
+    "lat": 40.3146306,
+    "lng": -3.4536225,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Boadilla del Monte",
+   "distrito": "",
+   "nombre": "Anda Conmigo",
+   "direccion": "C/ de los Mártires, 11, bajo",
+   "cp": "28660",
+   "telefono": "91 632 69 91 / 673 768 211",
+   "email": "boadilla@andaconmigo.com",
+   "web": "www.andaconmigo.com/cat/boadilla",
+   "horario": "L-V 10:00-14:00 y 16:00-20:00",
+   "geo": {
+    "lat": 40.40768794970465,
+    "lng": -3.8763058688276666,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Collado Villalba",
+   "distrito": "",
+   "nombre": "APASCOVI",
+   "direccion": "C/ José María Usandizaga, 34 bis",
+   "cp": "28409",
+   "telefono": "91 850 63 92 ext. 2 / 646 463 515",
+   "email": "atemprana@apascovi.org",
+   "web": "www.apascovifundacion.org",
+   "horario": "L-J 08:30-19:15; V 08:30-17:00",
+   "geo": {
+    "lat": 40.6343625,
+    "lng": -4.0229607,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Colmenar Viejo",
+   "distrito": "",
+   "nombre": "ASPRODICO",
+   "direccion": "C/ Batanes, 42",
+   "cp": "28770",
+   "telefono": "91 845 32 76 / 626 649 923",
+   "email": "info@asprodico.org",
+   "web": "www.asprodico.org",
+   "horario": "L 09:00-15:00; M-J 09:00-19:00; V 09:00-14:00",
+   "geo": {
+    "lat": 40.6632711,
+    "lng": -3.7782172,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Fuenlabrada",
+   "distrito": "",
+   "nombre": "AMÁS Finlandia",
+   "direccion": "C/ Finlandia, s/n",
+   "cp": "28942",
+   "telefono": "91 125 05 45 / 628 012 122",
+   "email": "atenciontemprana.finlandia@fundacionamas.org",
+   "web": "www.grupoamas.org",
+   "horario": "L-V 08:30-19:30",
+   "geo": {
+    "lat": 40.2904845,
+    "lng": -3.805807,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Fuenlabrada",
+   "distrito": "",
+   "nombre": "AMÁS Reinosa",
+   "direccion": "C/ Reinosa, 26",
+   "cp": "28941",
+   "telefono": "679 724 766",
+   "email": "atenciontemprana.reinosa@fundacionamas.org",
+   "web": "www.grupoamas.org",
+   "horario": "L-J 08:00-19:30; V 08:00-18:00",
+   "geo": {
+    "lat": 40.297577672098704,
+    "lng": -3.805230263067589,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Getafe",
+   "distrito": "",
+   "nombre": "APANID",
+   "direccion": "Plaza Jiménez Díaz, 5",
+   "cp": "28903",
+   "telefono": "91 695 28 03 / 91 682 56 15",
+   "email": "cat@apanid.es",
+   "web": "www.apanid.es",
+   "horario": "L-J 09:00-19:00; V 09:00-18:20",
+   "geo": {
+    "lat": 40.3153595,
+    "lng": -3.7214973,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Getafe",
+   "distrito": "",
+   "nombre": "APANID II",
+   "direccion": "Plaza Jiménez Díaz, 9",
+   "cp": "28903",
+   "telefono": "91 695 28 03 / 91 682 56 15",
+   "email": "cat2@apanid.es",
+   "web": "www.apanid.es",
+   "horario": "L-J 09:00-19:00; V 09:00-18:20",
+   "geo": {
+    "lat": 40.3150518,
+    "lng": -3.7209527,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Leganés",
+   "distrito": "",
+   "nombre": "ESFERA",
+   "direccion": "Plaza Pablo Casals, 1, bajo",
+   "cp": "28911",
+   "telefono": "91 689 88 30",
+   "email": "atempran@fundacionesfera.com",
+   "web": "www.fundacionesfera.com",
+   "horario": "L-V 08:30-19:30",
+   "geo": {
+    "lat": 40.3234295,
+    "lng": -3.770102,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Arganzuela",
+   "nombre": "ALTEA",
+   "direccion": "C/ Arganda, 38, bajo",
+   "cp": "28005",
+   "telefono": "91 530 71 53",
+   "email": "info@centroaltea.es",
+   "web": "www.centroaltea.es",
+   "horario": "L-J 09:00-19:30; V 09:00-18:00",
+   "geo": {
+    "lat": 40.40059859613216,
+    "lng": -3.7075048028329363,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Arganzuela",
+   "nombre": "ANIDA",
+   "direccion": "C/ Alonso del Barco, 6, bajo",
+   "cp": "28012",
+   "telefono": "629 655 716 / 91 046 58 55",
+   "email": "centrodeatenciontempranaanida@gmail.com",
+   "web": "www.centroanida.es",
+   "horario": "L-V 08:00-14:00 y 16:00-20:00",
+   "geo": {
+    "lat": 40.4045804,
+    "lng": -3.7013924,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Barajas",
+   "nombre": "ENVERA",
+   "direccion": "C/ Bahía de Pollensa, 25",
+   "cp": "28042",
+   "telefono": "91 329 55 64",
+   "email": "a.temprana@grupoenvera.org",
+   "web": "www.grupoenvera.org",
+   "horario": "L-V 07:45-20:30",
+   "geo": {
+    "lat": 40.46536757142796,
+    "lng": -3.5921335823144522,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Carabanchel",
+   "nombre": "ARIS",
+   "direccion": "C/ Álvarez Abellán, 6",
+   "cp": "28025",
+   "telefono": "91 462 62 22",
+   "email": "info@grupo-aris.es",
+   "web": "www.grupo-aris.es",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.3833812,
+    "lng": -3.7303222,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Carabanchel",
+   "nombre": "ARIS 2",
+   "direccion": "C/ Antonio Leyva, 25",
+   "cp": "28019",
+   "telefono": "91 066 08 04",
+   "email": "info@grupo-aris.es",
+   "web": "www.grupo-aris.es",
+   "horario": "L y J 08:00-20:00; M, X, V 15:00-20:00",
+   "geo": {
+    "lat": 40.395535906058505,
+    "lng": -3.71503860480096,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Centro",
+   "nombre": "ANAYET",
+   "direccion": "C/ Costanilla de los Desamparados, 21",
+   "cp": "28014",
+   "telefono": "91 369 79 79 / 657 898 463",
+   "email": "info@centroanayet.com",
+   "web": "www.centroanayet.com",
+   "horario": "L-V 08:00-20:00",
+   "geo": null
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Centro",
+   "nombre": "ANAYET II",
+   "direccion": "C/ Costanilla de los Desamparados, 12",
+   "cp": "28014",
+   "telefono": "91 152 31 34",
+   "email": "info@centroanayet.com",
+   "web": "www.centroanayet.com",
+   "horario": "L-V 08:00-20:00",
+   "geo": null
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Chamartín",
+   "nombre": "AMEB",
+   "direccion": "C/ Prádena del Rincón, 4",
+   "cp": "28002",
+   "telefono": "91 563 04 48",
+   "email": "ameb@ameb.es",
+   "web": "www.ameb.es",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 41.0430021,
+    "lng": -3.5407513,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Chamartín",
+   "nombre": "Centro de Terapia Infantil María Isabel Zulueta (Fundación Síndrome de Down)",
+   "direccion": "C/ Caídos de la División Azul, 15",
+   "cp": "28016",
+   "telefono": "91 310 53 64",
+   "email": "cat@downmadrid.org",
+   "web": "www.downmadrid.org",
+   "horario": "L-V 09:00-20:00",
+   "geo": {
+    "lat": 40.46752616711978,
+    "lng": -3.6761817905339083,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Chamartín",
+   "nombre": "Juan XXIII Segre",
+   "direccion": "C/ Segre, 8",
+   "cp": "28002",
+   "telefono": "91 413 73 49",
+   "email": "atenciontemprana@fundacionjuan23.org",
+   "web": "www.fundacionjuanxxiii.org/atenciontemprana",
+   "horario": "L-V 08:30-18:30",
+   "geo": {
+    "lat": 40.5705711,
+    "lng": -3.9047652,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Fuencarral-El Pardo",
+   "nombre": "BOBATH",
+   "direccion": "C/ Mirador de la Reina, 113",
+   "cp": "28035",
+   "telefono": "91 376 71 90",
+   "email": "tsocial@fundacionbobath.org",
+   "web": "www.fundacionbobath.org",
+   "horario": "L-V 08:30-18:00",
+   "geo": {
+    "lat": 40.490797133719596,
+    "lng": -3.7199040839864495,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Fuencarral-El Pardo",
+   "nombre": "NAPSIS",
+   "direccion": "C/ de Valcarlos, 9",
+   "cp": "28050",
+   "telefono": "91 427 26 99 / 637 668 525",
+   "email": "napsisbobath@hotmail.com",
+   "web": "www.napsis.org",
+   "horario": "L-V 12:00-20:00",
+   "geo": {
+    "lat": 40.5015369,
+    "lng": -3.6687819,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Fuencarral-El Pardo",
+   "nombre": "Conmigo Montecarmelo Silos",
+   "direccion": "Avenida Monasterio de Silos, 36",
+   "cp": "28049",
+   "telefono": "91 077 32 37 / 636 572 719",
+   "email": "direccionmc@centroconmigo.com",
+   "web": "www.centroconmigo.com",
+   "horario": "L-V 09:00-20:00",
+   "geo": {
+    "lat": 40.503471269587216,
+    "lng": -3.709469235856691,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Latina",
+   "nombre": "Instituto San José",
+   "direccion": "C/ Pinar de San José, 98",
+   "cp": "28054",
+   "telefono": "91 508 01 40",
+   "email": "hospitalfundacionsanjose.atenciontemprana@sjd.es",
+   "web": "www.fundacioninstitutosanjose.com",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.363794386658334,
+    "lng": -3.7649473032057914,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Moncloa-Aravaca",
+   "nombre": "Aravaca Conmigo",
+   "direccion": "C/ Alsasua, 4",
+   "cp": "28023",
+   "telefono": "91 357 31 37",
+   "email": "recepcion@centroconmigo.com",
+   "web": "www.centroconmigo.com",
+   "horario": "L-J 09:00-20:00; V 09:00-19:30",
+   "geo": {
+    "lat": 40.4644684,
+    "lng": -3.7987559,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Moratalaz",
+   "nombre": "ADEMO",
+   "direccion": "Avenida de Moratalaz, 42",
+   "cp": "28030",
+   "telefono": "91 439 29 24",
+   "email": "atemprana@fundacionademo.org",
+   "web": "www.fundacionrailes.org",
+   "horario": "L-V 08:30-13:00; L-J 14:30-18:00",
+   "geo": {
+    "lat": 40.40697970485057,
+    "lng": -3.6592904756881786,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Puente de Vallecas",
+   "nombre": "ACEOPS",
+   "direccion": "C/ Las Marismas, 51, bajo A",
+   "cp": "28038",
+   "telefono": "91 501 25 25 / 696 682 808",
+   "email": "atenciontemprana@aceops.com",
+   "web": "www.aceops.es",
+   "horario": "L-M 09:30-14:00 y 16:00-18:00; J 09:30-14:00 y 16:00-20:00; V 08:00-16:00",
+   "geo": {
+    "lat": 40.403137843451326,
+    "lng": -3.6545901786949835,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Puente de Vallecas",
+   "nombre": "Fundación Carlos Martín",
+   "direccion": "Avenida Rafael Alberti, 4",
+   "cp": "28038",
+   "telefono": "91 380 73 70 ext. 2008 y 2011 / 667 284 348",
+   "email": "atemprana@fundacionademo.org",
+   "web": "www.fundacionrailes.org",
+   "horario": "L-V 08:30-13:00; L-J 14:30-18:00",
+   "geo": {
+    "lat": 40.3895997,
+    "lng": -3.6387297,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Retiro",
+   "nombre": "EDAI",
+   "direccion": "C/ Téllez, 15, local 2",
+   "cp": "28007",
+   "telefono": "91 418 33 38",
+   "email": "infomadrid@edai.eu",
+   "web": "www.edai.eu",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.40372655081194,
+    "lng": -3.682969056135393,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Salamanca",
+   "nombre": "ASPAS",
+   "direccion": "C/ Elvira, 17, local",
+   "cp": "28028",
+   "telefono": "91 725 07 45 / 628 466 873",
+   "email": "aspas@aspasmadrid.org",
+   "web": "www.aspasmadrid.es",
+   "horario": "L-J 09:00-15:00 y 16:00-19:00; V 09:00-14:00",
+   "geo": {
+    "lat": 40.423486338086384,
+    "lng": -3.6654976410296345,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Salamanca",
+   "nombre": "Centro de Rehabilitación del Lenguaje (CRL)",
+   "direccion": "Avenida de los Toreros, 10",
+   "cp": "28028",
+   "telefono": "91 575 96 51 ext. 3",
+   "email": "catcrl@crl.es",
+   "web": "www.atenciontemprana.crl.es",
+   "horario": "L-V 08:15-20:00",
+   "geo": {
+    "lat": 40.432104319569675,
+    "lng": -3.6700782007021577,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Vicálvaro",
+   "nombre": "Juan XXIII Vicálvaro",
+   "direccion": "Avenida de la Gran Vía del Este, 4",
+   "cp": "28032",
+   "telefono": "91 413 73 49",
+   "email": "atenciontemprana@fundacionjuan23.org",
+   "web": "www.fundacionjuanxxiii.org/atenciontemprana",
+   "horario": "L-V 08:30-18:30",
+   "geo": {
+    "lat": 40.403054,
+    "lng": -3.5960484,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Villa de Vallecas",
+   "nombre": "AYTONA TOSA",
+   "direccion": "C/ Virgen de las Viñas, 16",
+   "cp": "28031",
+   "telefono": "91 777 32 93 / 607 041 743",
+   "email": "terapiainfantil@aytona.com",
+   "web": "www.aytona.com",
+   "horario": "L-V 09:00-19:30",
+   "geo": {
+    "lat": 40.38210450763823,
+    "lng": -3.60551643621605,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Villa de Vallecas",
+   "nombre": "ACEOPS Ensanche",
+   "direccion": "C/ Fernando Chueca Goitia, 14, bajo",
+   "cp": "28051",
+   "telefono": "91 483 48 98 / 690 281 033",
+   "email": "aceopsensanche@aceops.com",
+   "web": "www.aceops.es",
+   "horario": "L-M 09:30-14:00; J 15:00-19:00; V 12:00-17:00",
+   "geo": {
+    "lat": 40.366396002184814,
+    "lng": -3.589963764604467,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Madrid",
+   "distrito": "Villaverde",
+   "nombre": "AFANDICE",
+   "direccion": "C/ Lenguas, 22",
+   "cp": "28021",
+   "telefono": "91 505 11 28",
+   "email": "atemprana@afandice.org",
+   "web": "www.afandice.org",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.34289465408007,
+    "lng": -3.7044205207983434,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Móstoles",
+   "distrito": "",
+   "nombre": "AMÁS París",
+   "direccion": "C/ Juan Gómez, 1",
+   "cp": "28938",
+   "telefono": "91 645 76 45",
+   "email": "atencion.temprana@fundacion-amas.org",
+   "web": "www.grupoamas.org",
+   "horario": "L-V 08:30-19:30",
+   "geo": {
+    "lat": 40.3160687,
+    "lng": -3.8618925,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Parla",
+   "distrito": "",
+   "nombre": "ADEMPA",
+   "direccion": "C/ Villaverde, 1",
+   "cp": "28981",
+   "telefono": "91 698 43 11 / 628 604 359",
+   "email": "secretaria@adempa.org",
+   "web": "www.adempa.org",
+   "horario": "L-V 08:30-14:00 y 15:00-20:30",
+   "geo": {
+    "lat": 40.2429453,
+    "lng": -3.7720946,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Pinto",
+   "distrito": "",
+   "nombre": "ADA",
+   "direccion": "C/ Joan Miró, 16",
+   "cp": "28320",
+   "telefono": "624 586 631 / 692 279 192",
+   "email": "info@centroada.es",
+   "web": "www.centroada.es",
+   "horario": "L-V 09:30-13:30 y 15:30-20:30",
+   "geo": {
+    "lat": 40.238704928521926,
+    "lng": -3.6988467309118573,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Pinto",
+   "distrito": "",
+   "nombre": "Creciendo",
+   "direccion": "C/ Buenos Aires, 7",
+   "cp": "28320",
+   "telefono": "91 052 37 83 / 644 027 804",
+   "email": "info@centrointegralcreciendo.org",
+   "web": "www.centrointegralcreciendo.org",
+   "horario": "L-V 10:00-14:00 y 16:00-20:00",
+   "geo": {
+    "lat": 40.2385467,
+    "lng": -3.702055,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Pinto",
+   "distrito": "",
+   "nombre": "José Luis Martínez Dregorio",
+   "direccion": "C/ Egido de la Fuente, 15",
+   "cp": "28320",
+   "telefono": "91 692 39 52 / 638 975 077",
+   "email": "direccion.atenciontemprana@ampinto.org",
+   "web": "www.ampinto.org",
+   "horario": "L-V 08:00-20:00",
+   "geo": null
+  },
+  {
+   "municipio": "Pozuelo de Alarcón",
+   "distrito": "",
+   "nombre": "MITAI",
+   "direccion": "Vía de las Dos Castillas, 32",
+   "cp": "28223",
+   "telefono": "91 351 57 13 / 625 529 047",
+   "email": "mitai@mitai.es",
+   "web": "www.mitai.es",
+   "horario": "L, X, V 09:00-20:30; M y J 12:00-20:00",
+   "geo": {
+    "lat": 40.44047997104347,
+    "lng": -3.7865319850089456,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Rivas-Vaciamadrid",
+   "distrito": "",
+   "nombre": "ASPADIR",
+   "direccion": "Avenida Integración, 1",
+   "cp": "28523",
+   "telefono": "91 666 95 03",
+   "email": "info@aspadir.org",
+   "web": "www.aspadir.org",
+   "horario": "L-J 09:00-14:00 y 16:00-18:00; V 09:00-14:00",
+   "geo": {
+    "lat": 40.3613856,
+    "lng": -3.5436475,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "San Fernando de Henares",
+   "distrito": "",
+   "nombre": "Centro ASPIMIP San Fernando",
+   "direccion": "Avenida Somorrostro, 193",
+   "cp": "28830",
+   "telefono": "91 671 82 24",
+   "email": "sanfernando.cat@aspimip.org",
+   "web": "www.aspimip.org",
+   "horario": "L y X 09:00-19:00; M 09:00-14:30; J 09:00-20:00; V 09:00-18:00",
+   "geo": {
+    "lat": 40.4145175,
+    "lng": -3.5217166,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "San Sebastián de los Reyes",
+   "distrito": "",
+   "nombre": "APADIS",
+   "direccion": "Avenida Castilla la Mancha, 109 bis",
+   "cp": "28701",
+   "telefono": "91 654 42 07",
+   "email": "atenciontemprana@apadis.es",
+   "web": "www.apadis.es",
+   "horario": "L-J 09:00-18:00; V 08:30-15:00",
+   "geo": {
+    "lat": 40.5609789,
+    "lng": -3.6320448,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "San Sebastián de los Reyes",
+   "distrito": "",
+   "nombre": "DACERIN",
+   "direccion": "C/ Francisco Ayala, 10",
+   "cp": "28702",
+   "telefono": "91 667 16 46",
+   "email": "info@dacer.org",
+   "web": "www.dacer.org",
+   "horario": "L-J 09:00-14:00 y 16:00-20:00; V 09:00-14:00",
+   "geo": {
+    "lat": 40.5638254,
+    "lng": -3.6124204,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Torrejón de Ardoz",
+   "distrito": "",
+   "nombre": "ASTOR Los Juncales",
+   "direccion": "C/ Brasil, 32",
+   "cp": "28850",
+   "telefono": "91 676 62 83 / 661 40 10 96",
+   "email": "catlosjuncales@astor-inlade.org",
+   "web": "www.astor-inlade.es",
+   "horario": "L-V 08:00-20:00",
+   "geo": {
+    "lat": 40.463057,
+    "lng": -3.4875179,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  },
+  {
+   "municipio": "Torrelodones",
+   "distrito": "",
+   "nombre": "CITO",
+   "direccion": "Carretera de Galapagar, 37",
+   "cp": "28250",
+   "telefono": "91 859 14 97",
+   "email": "administracion@citocentro.org",
+   "web": "www.citocentro.org",
+   "horario": "L-J 08:00-19:00; V 08:00-17:00",
+   "geo": {
+    "lat": 40.5761838758778,
+    "lng": -3.9579795425016258,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Tres Cantos",
+   "distrito": "",
+   "nombre": "INTERACTÚA",
+   "direccion": "C/ Sector Músicos, 16, bajo 4",
+   "cp": "28760",
+   "telefono": "91 930 19 78 / 623 360 819",
+   "email": "info@centrointeractua.com",
+   "web": "www.centrointeractua.com",
+   "horario": "L-V 09:00-16:00",
+   "geo": null
+  },
+  {
+   "municipio": "Valdemoro",
+   "distrito": "",
+   "nombre": "AMIVAL",
+   "direccion": "C/ Apolo, 22",
+   "cp": "28341",
+   "telefono": "91 865 73 46 / 620 943 225",
+   "email": "cattamival@amival.org",
+   "web": "www.amival.org",
+   "horario": "L-V 09:30-13:30 y 15:00-18:00",
+   "geo": {
+    "lat": 40.17927680409947,
+    "lng": -3.6811593563854914,
+    "precision": "calle",
+    "fuente": "CartoCiudad"
+   }
+  },
+  {
+   "municipio": "Villanueva de la Cañada",
+   "distrito": "",
+   "nombre": "Jardines de España",
+   "direccion": "Avenida Mirasierra, 1",
+   "cp": "28691",
+   "telefono": "91 811 77 60 / 629 21 66 26",
+   "email": "jares2@hotmail.com",
+   "web": "www.fundacionjares.org",
+   "horario": "L-J 09:00-19:00; V 08:00-14:00",
+   "geo": null
+  },
+  {
+   "municipio": "Villaviciosa de Odón",
+   "distrito": "",
+   "nombre": "CAIS",
+   "direccion": "C/ Fernando III, 4",
+   "cp": "28670",
+   "telefono": "91 616 63 04 / 691 840 526",
+   "email": "cais@atencionintegral.es",
+   "web": "www.atencionintegral.es",
+   "horario": "L-J 09:00-14:00 y 16:00-20:00; V 09:00-14:00",
+   "geo": {
+    "lat": 40.3582813,
+    "lng": -3.9108519,
+    "precision": "aproximada",
+    "fuente": "Nominatim"
+   }
+  }
+ ],
+ "osm": []
+}
