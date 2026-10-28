@@ -14,35 +14,53 @@ function limpiaDireccion(d) {
   return d.replace(/^C\/\s*/i, "Calle ").replace(/,\s*(bajo|local|loc\.).*$/i, "").replace(/\s+/g, " ").trim();
 }
 
+const km = (a, b) => {
+  const r = Math.PI / 180, dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLng / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+};
+
+async function nominatim(params) {
+  const url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=es&" + new URLSearchParams(params);
+  await espera(1100);
+  const res = await (await fetch(url, { headers: { "User-Agent": UA } })).json();
+  if (!res[0]) return null;
+  return { lat: Number(res[0].lat), lng: Number(res[0].lon) };
+}
+
+const centrosMunicipio = {};
+async function centroMunicipio(m) {
+  if (!(m in centrosMunicipio)) centrosMunicipio[m] = await nominatim({ city: m, state: "Comunidad de Madrid" });
+  return centrosMunicipio[m];
+}
+
 async function cartociudad(q) {
   const url = "https://www.cartociudad.es/geocoder/api/geocoder/findJsonp?q=" + encodeURIComponent(q);
   const txt = await (await fetch(url, { headers: { "User-Agent": UA } })).text();
   const json = JSON.parse(txt.replace(/^[^(]*\(/, "").replace(/\)\s*;?\s*$/, ""));
   const lat = Number(json.lat), lng = Number(json.lng);
-  if (!dentroMadrid(lat, lng)) return null;
-  return { lat, lng, precision: json.state === 1 ? "portal" : "calle", fuente: "CartoCiudad" };
-}
-
-async function nominatim(q) {
-  const url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=es&q=" + encodeURIComponent(q);
-  const res = await (await fetch(url, { headers: { "User-Agent": UA } })).json();
-  if (!res[0]) return null;
-  const lat = Number(res[0].lat), lng = Number(res[0].lon);
-  if (!dentroMadrid(lat, lng)) return null;
-  return { lat, lng, precision: "aproximada", fuente: "Nominatim" };
+  if (!isFinite(lat) || !lat) return null;
+  return { lat, lng, tipo: json.type, estado: json.state };
 }
 
 async function geocodifica(c) {
-  const dir = limpiaDireccion(c.direccion);
-  const q = `${dir}, ${c.cp} ${c.municipio}`;
-  for (const f of [cartociudad, nominatim]) {
+  const calle = limpiaDireccion(c.direccion);
+  const centro = await centroMunicipio(c.municipio);
+  const radio = c.municipio === "Madrid" ? 16 : 10;
+  const valido = (p) => p && dentroMadrid(p.lat, p.lng) && (!centro || km(centro, p) <= radio);
+  const intentos = [
+    ["CartoCiudad", "calle", () => cartociudad(`${calle}, ${c.municipio}`)],
+    ["CartoCiudad", "calle", () => cartociudad(`${calle}, ${c.cp} ${c.municipio}`)],
+    ["OpenStreetMap", "calle", () => nominatim({ street: calle.replace(/^(.*?),?\s*(\d+\w*)\b.*$/, "$2 $1"), city: c.municipio, postalcode: c.cp })],
+    ["OpenStreetMap", "código postal", () => nominatim({ postalcode: c.cp, country: "es" })],
+  ];
+  for (const [fuente, precision, f] of intentos) {
     try {
-      const r = await f(q);
-      if (r) return r;
+      const p = await f();
+      if (valido(p)) return { lat: p.lat, lng: p.lng, fuente, precision };
     } catch (e) {
-      console.warn("Fallo", f.name, q, e.message);
+      console.warn("Fallo", fuente, c.nombre, e.message);
     }
-    await espera(1100);
   }
   return null;
 }
@@ -57,15 +75,14 @@ for (const c of at) {
   await espera(300);
 }
 
-const overpass = `[out:json][timeout:120];
-area["name"="Madrid"]["admin_level"="8"]["boundary"="administrative"]->.m;
+const overpass = `[out:json][timeout:90];
 (
-  nwr["healthcare"~"^(speech_therapist|occupational_therapist)$"](area.m);
-  nwr["healthcare:speciality"~"speech|occupational|paediatric|early_intervention|logoped",i](area.m);
-  nwr["healthcare"~"^(physiotherapist|psychotherapist|psychologist|counselling|centre|clinic)$"]["name"~"infantil|pedi[aá]tric|ni[ñn]|neuro|logoped|temprana|desarrollo|autis|TEA|down|par[aá]lisis",i](area.m);
-  nwr["amenity"="social_facility"]["social_facility:for"~"disabled|child|mental_health"](area.m);
-  nwr["office"~"association|ngo|foundation"]["name"~"discapac|autis|down|par[aá]lisis|sordo|ciego|TEA|asperger",i](area.m);
-  nwr["leisure"~"sports_centre|pitch"]["name"~"adaptad|inclusiv",i](area.m);
+  nwr["healthcare"~"^(speech_therapist|occupational_therapist)$"](40.31,-3.89,40.64,-3.52);
+  nwr["healthcare:speciality"~"speech|occupational|paediatric|early_intervention|logoped",i](40.31,-3.89,40.64,-3.52);
+  nwr["healthcare"~"^(physiotherapist|psychotherapist|psychologist|counselling|centre|clinic)$"]["name"~"infantil|pedi[aá]tric|ni[ñn]|neuro|logoped|temprana|desarrollo|autis|TEA|down|par[aá]lisis",i](40.31,-3.89,40.64,-3.52);
+  nwr["amenity"="social_facility"]["social_facility:for"~"disabled|child|mental_health"](40.31,-3.89,40.64,-3.52);
+  nwr["office"~"association|ngo|foundation"]["name"~"discapac|autis|down|par[aá]lisis|sordo|ciego|TEA|asperger",i](40.31,-3.89,40.64,-3.52);
+  nwr["leisure"~"sports_centre|pitch"]["name"~"adaptad|inclusiv",i](40.31,-3.89,40.64,-3.52);
 );
 out center tags;`;
 let osm = [];
@@ -75,7 +92,9 @@ try {
     headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded" },
     body: "data=" + encodeURIComponent(overpass),
   });
-  const j = await r.json();
+  const txt = await r.text();
+  console.log("Overpass", r.status, txt.slice(0, 300));
+  const j = JSON.parse(txt);
   osm = j.elements.map((e) => ({
     osm: `${e.type}/${e.id}`,
     lat: e.lat ?? e.center?.lat,
