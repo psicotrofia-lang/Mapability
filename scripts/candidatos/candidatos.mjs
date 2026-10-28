@@ -69,8 +69,11 @@ const filas = readFileSync(dir + "atencion-temprana.tsv", "utf8").trim().split("
 const cab = filas.shift().split("\t");
 const at = filas.map((l) => Object.fromEntries(l.split("\t").map((v, i) => [cab[i], v])));
 
+let previa = {};
+try { previa = JSON.parse(readFileSync(dir + "salida.json", "utf8")); } catch (e) { /* primera vez */ }
+const geoPrevia = Object.fromEntries((previa.atencion_temprana || []).map((c) => [c.nombre + "|" + c.direccion, c.geo]));
 for (const c of at) {
-  c.geo = await geocodifica(c);
+  c.geo = geoPrevia[c.nombre + "|" + c.direccion] || await geocodifica(c);
   console.log((c.geo ? "OK  " : "NO  ") + c.nombre, c.geo ? `${c.geo.lat},${c.geo.lng} (${c.geo.fuente}, ${c.geo.precision})` : "");
   await espera(300);
 }
@@ -85,25 +88,29 @@ const overpass = `[out:json][timeout:90];
   nwr["leisure"~"sports_centre|pitch"]["name"~"adaptad|inclusiv",i](40.31,-3.89,40.64,-3.52);
 );
 out center tags;`;
-let osm = [];
-try {
-  const r = await fetch("https://overpass-api.de/api/interpreter", {
-    method: "POST",
-    headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded" },
-    body: "data=" + encodeURIComponent(overpass),
-  });
-  const txt = await r.text();
-  console.log("Overpass", r.status, txt.slice(0, 300));
-  const j = JSON.parse(txt);
-  osm = j.elements.map((e) => ({
-    osm: `${e.type}/${e.id}`,
-    lat: e.lat ?? e.center?.lat,
-    lng: e.lon ?? e.center?.lon,
-    tags: e.tags || {},
-  })).filter((e) => e.tags.name);
-  console.log("OpenStreetMap:", osm.length, "elementos con nombre");
-} catch (e) {
-  console.warn("Fallo Overpass", e.message);
+let osm = previa.osm || [];
+const servidores = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://overpass.private.coffee/api/interpreter"];
+for (let intento = 0; intento < 6 && !osm.length; intento++) {
+  const url = servidores[intento % servidores.length];
+  try {
+    const r = await fetch(url, {
+      method: "POST",
+      headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded" },
+      body: "data=" + encodeURIComponent(overpass),
+    });
+    const txt = await r.text();
+    if (!r.ok) throw new Error(r.status + " " + txt.slice(0, 120));
+    osm = JSON.parse(txt).elements.map((e) => ({
+      osm: `${e.type}/${e.id}`,
+      lat: e.lat ?? e.center?.lat,
+      lng: e.lon ?? e.center?.lon,
+      tags: e.tags || {},
+    })).filter((e) => e.tags.name);
+    console.log("OpenStreetMap:", osm.length, "elementos con nombre (" + url + ")");
+  } catch (e) {
+    console.warn("Fallo Overpass", url, e.message);
+    await espera(15000 * (intento + 1));
+  }
 }
 
 writeFileSync(dir + "salida.json", JSON.stringify({ generado: new Date().toISOString(), atencion_temprana: at, osm }, null, 1));
