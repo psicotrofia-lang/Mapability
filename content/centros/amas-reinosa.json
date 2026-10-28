@@ -1,0 +1,32 @@
+{
+  "nombre": "AMÁS Reinosa",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Fuenlabrada",
+  "distrito": "",
+  "direccion": "C/ Reinosa, 26",
+  "cp": "28941",
+  "lat": 40.299634,
+  "lng": -3.806132,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "679 724 766",
+  "email": "atenciontemprana.reinosa@fundacionamas.org",
+  "web": "https://www.grupoamas.org",
+  "horario": "L-J 08:00-19:30; V 08:00-18:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

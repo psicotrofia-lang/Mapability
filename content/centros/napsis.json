@@ -1,0 +1,32 @@
+{
+  "nombre": "NAPSIS",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Fuencarral-El Pardo",
+  "direccion": "C/ de Valcarlos, 9",
+  "cp": "28050",
+  "lat": 40.499093,
+  "lng": -3.67238,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 427 26 99 / 637 668 525",
+  "email": "napsisbobath@hotmail.com",
+  "web": "https://www.napsis.org",
+  "horario": "L-V 12:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

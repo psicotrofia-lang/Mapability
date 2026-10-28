@@ -1,0 +1,29 @@
+{
+  "nombre": "Fisioterapia Santos",
+  "descripcion": "Fuente: OpenStreetMap (node/7905393650). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "Calle del Rodio 2",
+  "cp": "28045",
+  "lat": 40.39049,
+  "lng": -3.692149,
+  "terapias": [
+    "content/glosario/fisioterapia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 667 069 096",
+  "email": "consultas@fisioterapiasantos.es",
+  "web": "https://fisioterapiasantos.es/",
+  "horario": "",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

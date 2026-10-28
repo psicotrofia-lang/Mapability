@@ -1,0 +1,32 @@
+{
+  "nombre": "ARIS 2",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Carabanchel",
+  "direccion": "C/ Antonio Leyva, 25",
+  "cp": "28019",
+  "lat": 40.393947,
+  "lng": -3.715273,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 066 08 04",
+  "email": "info@grupo-aris.es",
+  "web": "https://www.grupo-aris.es",
+  "horario": "L y J 08:00-20:00; M, X, V 15:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

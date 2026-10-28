@@ -1,0 +1,29 @@
+{
+  "nombre": "Logopedia y Más Vicálvaro",
+  "descripcion": "Fuente: OpenStreetMap (node/8149218921). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "Calle de Marmolina 12",
+  "cp": "28032",
+  "lat": 40.397295,
+  "lng": -3.607708,
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34652988487",
+  "email": "info@logopediaymas.es",
+  "web": "https://www.logopediaymas.es/logopeda-infantil/",
+  "horario": "Mo-Fr 09:00-22:00; Sa 09:00-16:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

@@ -1,0 +1,32 @@
+{
+  "nombre": "APSA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Arganda del Rey",
+  "distrito": "",
+  "direccion": "C/ Cóndor, 9 y 11",
+  "cp": "28500",
+  "lat": 40.312179,
+  "lng": -3.451451,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 871 11 90",
+  "email": "info@asociacionapsa.es",
+  "web": "https://www.asociacionapsa.es",
+  "horario": "L-V 08:30-17:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

@@ -1,0 +1,32 @@
+{
+  "nombre": "APHISA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Alcalá de Henares",
+  "distrito": "",
+  "direccion": "C/ Serracines, 13, Loc. 9 y 10",
+  "cp": "28806",
+  "lat": 40.492088,
+  "lng": -3.362138,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 883 12 27",
+  "email": "direcciontemprana@aphisa.es",
+  "web": "https://www.aphisa.es",
+  "horario": "L-V 08:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

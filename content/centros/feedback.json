@@ -1,0 +1,29 @@
+{
+  "nombre": "Feedback",
+  "descripcion": "Fuente: OpenStreetMap (node/12924800790). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "",
+  "cp": "",
+  "lat": 40.382569,
+  "lng": -3.767237,
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "https://feedbacklogopedia.com/",
+  "horario": "",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

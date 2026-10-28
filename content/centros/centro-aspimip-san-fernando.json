@@ -1,0 +1,32 @@
+{
+  "nombre": "Centro ASPIMIP San Fernando",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "San Fernando de Henares",
+  "distrito": "",
+  "direccion": "Avenida Somorrostro, 193",
+  "cp": "28830",
+  "lat": 40.414522,
+  "lng": -3.521755,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 671 82 24",
+  "email": "sanfernando.cat@aspimip.org",
+  "web": "https://www.aspimip.org",
+  "horario": "L y X 09:00-19:00; M 09:00-14:30; J 09:00-20:00; V 09:00-18:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

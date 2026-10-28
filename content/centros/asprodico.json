@@ -1,0 +1,32 @@
+{
+  "nombre": "ASPRODICO",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Colmenar Viejo",
+  "distrito": "",
+  "direccion": "C/ Batanes, 42",
+  "cp": "28770",
+  "lat": 40.664038,
+  "lng": -3.777611,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 845 32 76 / 626 649 923",
+  "email": "info@asprodico.org",
+  "web": "https://www.asprodico.org",
+  "horario": "L 09:00-15:00; M-J 09:00-19:00; V 09:00-14:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

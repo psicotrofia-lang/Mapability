@@ -1,0 +1,32 @@
+{
+  "nombre": "ANAYET",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Centro",
+  "direccion": "C/ Costanilla de los Desamparados, 21",
+  "cp": "28014",
+  "lat": 40.411334,
+  "lng": -3.696709,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 369 79 79 / 657 898 463",
+  "email": "info@centroanayet.com",
+  "web": "https://www.centroanayet.com",
+  "horario": "L-V 08:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

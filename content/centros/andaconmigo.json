@@ -1,0 +1,29 @@
+{
+  "nombre": "Andaconmigo",
+  "descripcion": "Fuente: OpenStreetMap (node/9758698890). Datos pendientes de comprobar con el centro.",
+  "municipio": "Majadahonda",
+  "distrito": "",
+  "direccion": "Calle del Sacrificio 8",
+  "cp": "28220",
+  "lat": 40.470127,
+  "lng": -3.875321,
+  "terapias": [
+    "content/glosario/terapia-ocupacional.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 655365856",
+  "email": "",
+  "web": "https://andaconmigo.com/project/majadahonda-2/",
+  "horario": "Mo-Fr 10:00-13:30,16:00-20:00; Sa 10:00-14:00; Su,PH off",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

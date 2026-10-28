@@ -1,0 +1,32 @@
+{
+  "nombre": "Centro de Terapia Infantil María Isabel Zulueta (Fundación Síndrome de Down)",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Chamartín",
+  "direccion": "C/ Caídos de la División Azul, 15",
+  "cp": "28016",
+  "lat": 40.466929,
+  "lng": -3.672833,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 310 53 64",
+  "email": "cat@downmadrid.org",
+  "web": "https://www.downmadrid.org",
+  "horario": "L-V 09:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

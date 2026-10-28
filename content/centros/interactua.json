@@ -1,0 +1,32 @@
+{
+  "nombre": "INTERACTÚA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Tres Cantos",
+  "distrito": "",
+  "direccion": "C/ Sector Músicos, 16, bajo 4",
+  "cp": "28760",
+  "lat": 40.606667,
+  "lng": -3.717607,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 930 19 78 / 623 360 819",
+  "email": "info@centrointeractua.com",
+  "web": "https://www.centrointeractua.com",
+  "horario": "L-V 09:00-16:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

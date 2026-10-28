@@ -4,7 +4,7 @@ Web para familias con un hijo o hija con discapacidad: guía de trámites y ayud
 
 Se puede usar en el ordenador y en el móvil, y se puede instalar en el móvil como si fuera una app («Añadir a pantalla de inicio»).
 
-> **Estado: prototipo.** Todo el contenido es de ejemplo y está marcado como borrador. Los centros del mapa son ficticios.
+> **Estado: prototipo.** Todo el contenido es de ejemplo y está marcado como borrador. Los centros de terapia del mapa son reales (red pública de atención temprana y OpenStreetMap) pero están sin comprobar; los de deporte y ocio son ficticios.
 
 ## Cómo está organizado
 

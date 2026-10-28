@@ -1,0 +1,29 @@
+{
+  "nombre": "Logopedia y Más Villa de Vallecas",
+  "descripcion": "Fuente: OpenStreetMap (node/8149212019). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "Calle de la Sierra Morena 42",
+  "cp": "28031",
+  "lat": 40.378025,
+  "lng": -3.62385,
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34652988487",
+  "email": "info@logopediaymas.es",
+  "web": "https://www.logopediaymas.es",
+  "horario": "Mo-Fr 09:00-22:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

@@ -1,0 +1,32 @@
+{
+  "nombre": "BOBATH",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Fuencarral-El Pardo",
+  "direccion": "C/ Mirador de la Reina, 113",
+  "cp": "28035",
+  "lat": 40.490755,
+  "lng": -3.720499,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 376 71 90",
+  "email": "tsocial@fundacionbobath.org",
+  "web": "https://www.fundacionbobath.org",
+  "horario": "L-V 08:30-18:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

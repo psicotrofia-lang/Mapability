@@ -1,0 +1,32 @@
+{
+  "nombre": "ENVERA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Barajas",
+  "direccion": "C/ Bahía de Pollensa, 25",
+  "cp": "28042",
+  "lat": 40.464911,
+  "lng": -3.591815,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 329 55 64",
+  "email": "a.temprana@grupoenvera.org",
+  "web": "https://www.grupoenvera.org",
+  "horario": "L-V 07:45-20:30",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

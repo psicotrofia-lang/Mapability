@@ -1,0 +1,29 @@
+{
+  "nombre": "Centro Logros",
+  "descripcion": "Fuente: OpenStreetMap (node/9725928573). Datos pendientes de comprobar con el centro.",
+  "municipio": "Majadahonda",
+  "distrito": "",
+  "direccion": "Calle Granadilla 35",
+  "cp": "28220",
+  "lat": 40.470628,
+  "lng": -3.874841,
+  "terapias": [
+    "content/glosario/terapia-ocupacional.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 91 634 77 22",
+  "email": "",
+  "web": "https://www.centrologros.es/",
+  "horario": "",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

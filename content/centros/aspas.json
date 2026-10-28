@@ -1,0 +1,32 @@
+{
+  "nombre": "ASPAS",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Salamanca",
+  "direccion": "C/ Elvira, 17, local",
+  "cp": "28028",
+  "lat": 40.422204,
+  "lng": -3.665174,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 725 07 45 / 628 466 873",
+  "email": "aspas@aspasmadrid.org",
+  "web": "https://www.aspasmadrid.es",
+  "horario": "L-J 09:00-15:00 y 16:00-19:00; V 09:00-14:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

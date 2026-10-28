@@ -1,0 +1,32 @@
+{
+  "nombre": "ALTEA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Arganzuela",
+  "direccion": "C/ Arganda, 38, bajo",
+  "cp": "28005",
+  "lat": 40.399765,
+  "lng": -3.7062,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 530 71 53",
+  "email": "info@centroaltea.es",
+  "web": "https://www.centroaltea.es",
+  "horario": "L-J 09:00-19:30; V 09:00-18:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}
