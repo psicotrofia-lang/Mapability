@@ -12,6 +12,7 @@
   ],
   "donde": "Habla primero con tu pediatra o con el equipo de la escuela infantil: son quienes suelen hacer la derivación al centro regional de valoración.",
   "plazos": "Cuanto antes, mejor: la atención temprana termina a los 6 años. Pregunta por el tiempo de espera de la valoración.",
+  "espera_semanas": 8,
   "enlace_oficial": "https://www.comunidad.madrid",
   "enlace_texto": "Comunidad de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -20,6 +21,7 @@
     "content/tramites/certificado-discapacidad.json",
     "content/tramites/escolarizacion-apoyos.json"
   ],
+  "requiere": [],
   "terapias": [
     "content/glosario/logopedia.json",
     "content/glosario/fisioterapia.json",

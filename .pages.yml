@@ -64,6 +64,20 @@ content:
       - name: plazos
         label: Plazos
         type: text
+      - name: espera_semanas
+        label: Tiempo de respuesta habitual (semanas)
+        description: Lo que suele tardar la administración en resolver. «Mi plan» lo usa para proponer qué pedir primero. Pon 0 si es inmediato.
+        type: number
+      - name: requiere
+        label: Hay que tener antes
+        description: Trámites que deben estar resueltos antes de poder pedir este (por ejemplo, el certificado de discapacidad).
+        type: reference
+        options:
+          collection: tramites
+          multiple: true
+          value: "{path}"
+          label: "{titulo}"
+          search: titulo
       - name: enlace_oficial
         label: Enlace a la web oficial
         description: Debe empezar por https://
@@ -382,6 +396,77 @@ content:
           search: titulo
       - name: borrador
         label: Borrador
+        type: boolean
+        default: true
+
+  - name: noticias
+    label: Noticias
+    description: Artículos para las familias sobre discapacidad, ayudas, investigación y recursos.
+    type: collection
+    path: content/noticias
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: titulo
+      fields: [titulo, fecha, categoria, borrador]
+      sort: fecha
+      order: desc
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: fecha
+        label: Fecha de publicación
+        type: date
+        required: true
+      - name: categoria
+        label: Categoría
+        type: select
+        required: true
+        options:
+          values:
+            - name: ayudas
+              label: Ayudas y trámites
+            - name: investigacion
+              label: Investigación
+            - name: terapias
+              label: Terapias
+            - name: educacion
+              label: Educación
+            - name: ocio
+              label: Ocio y deporte
+            - name: familias
+              label: Familias
+            - name: mapability
+              label: Novedades de mapability
+      - name: resumen
+        label: Resumen
+        description: Dos o tres frases. Se ve en el listado y al compartir el enlace.
+        type: text
+        required: true
+      - name: imagen
+        label: Imagen
+        description: Opcional. Usad imágenes propias o con permiso, nunca fotos de menores sin autorización.
+        type: image
+      - name: cuerpo
+        label: Texto del artículo
+        type: rich-text
+      - name: fuente_nombre
+        label: Fuente original
+        description: Por ejemplo, «Boletín Oficial de la Comunidad de Madrid» o el nombre de la revista.
+        type: string
+      - name: fuente_enlace
+        label: Enlace a la fuente
+        description: Debe empezar por https://
+        type: string
+      - name: autor
+        label: Autor o autora
+        type: string
+        default: Equipo de mapability
+      - name: borrador
+        label: Borrador
+        description: Márcalo mientras el artículo no esté revisado. Se mostrará la etiqueta «Borrador».
         type: boolean
         default: true
 

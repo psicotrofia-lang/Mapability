@@ -13,6 +13,7 @@
   ],
   "donde": "Comunidad de Madrid, de forma presencial o por la sede electrónica.",
   "plazos": "Se puede pedir en cualquier momento. Hay que renovarlo cuando cambian las circunstancias o caduca.",
+  "espera_semanas": 6,
   "enlace_oficial": "https://www.comunidad.madrid",
   "enlace_texto": "Comunidad de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -20,6 +21,9 @@
   "relacionados": [
     "content/tramites/certificado-discapacidad.json",
     "content/tramites/beneficios-fiscales.json"
+  ],
+  "requiere": [
+    "content/tramites/certificado-discapacidad.json"
   ],
   "terapias": [],
   "borrador": true

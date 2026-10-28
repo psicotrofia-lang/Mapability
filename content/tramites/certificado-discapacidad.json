@@ -12,6 +12,7 @@
   ],
   "donde": "Centros base de valoración y orientación de la Comunidad de Madrid, por registro presencial o por la sede electrónica.",
   "plazos": "Se puede pedir en cualquier momento. La resolución puede tardar varios meses. En menores suele tener fecha de revisión.",
+  "espera_semanas": 26,
   "enlace_oficial": "https://www.comunidad.madrid",
   "enlace_texto": "Comunidad de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -22,6 +23,7 @@
     "content/tramites/beneficios-fiscales.json",
     "content/tramites/familia-numerosa.json"
   ],
+  "requiere": [],
   "terapias": [],
   "borrador": true
 }

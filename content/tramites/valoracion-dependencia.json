@@ -13,6 +13,7 @@
   ],
   "donde": "Normalmente a través de los servicios sociales de tu municipio, o directamente en la Comunidad de Madrid.",
   "plazos": "Se puede pedir en cualquier momento. Entre la solicitud y el PIA pueden pasar meses: guarda copia de todo lo que presentes.",
+  "espera_semanas": 26,
   "enlace_oficial": "https://www.comunidad.madrid",
   "enlace_texto": "Comunidad de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -21,6 +22,7 @@
     "content/tramites/servicios-sociales.json",
     "content/tramites/certificado-discapacidad.json"
   ],
+  "requiere": [],
   "terapias": [],
   "borrador": true
 }

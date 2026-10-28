@@ -12,6 +12,7 @@
   ],
   "donde": "Mutua de la empresa o Instituto Nacional de la Seguridad Social.",
   "plazos": "Desde el inicio de la reducción de jornada. Se revisa periódicamente.",
+  "espera_semanas": 4,
   "enlace_oficial": "https://www.seg-social.es",
   "enlace_texto": "Seguridad Social",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -19,6 +20,7 @@
   "relacionados": [
     "content/tramites/prestacion-hijo-cargo.json"
   ],
+  "requiere": [],
   "terapias": [],
   "borrador": true
 }

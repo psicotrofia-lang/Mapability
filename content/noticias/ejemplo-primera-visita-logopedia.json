@@ -1,0 +1,12 @@
+{
+  "titulo": "Ejemplo de artículo: qué preguntar en la primera visita a logopedia",
+  "fecha": "2026-10-21",
+  "categoria": "terapias",
+  "resumen": "Artículo de ejemplo para el prototipo. Sustituidlo por contenido real antes de publicar.",
+  "imagen": "",
+  "cuerpo": "<p>Este es un texto de ejemplo para ver cómo se muestra un artículo largo, con apartados y listas.</p><h2>Antes de la cita</h2><p>Apuntad qué os preocupa, desde cuándo y en qué situaciones lo notáis más. Llevad los informes que tengáis.</p><h2>Preguntas que pueden ayudar</h2><ul><li>¿Qué objetivos vamos a trabajar y cómo sabremos si avanzamos?</li><li>¿Con qué frecuencia serán las sesiones y cuánto durarán?</li><li>¿Qué podemos hacer en casa entre sesiones?</li><li>¿Os coordináis con el colegio o con otros profesionales?</li></ul>",
+  "fuente_nombre": "",
+  "fuente_enlace": "",
+  "autor": "Equipo de mapability",
+  "borrador": true
+}

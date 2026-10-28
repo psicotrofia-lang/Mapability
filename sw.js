@@ -1,7 +1,7 @@
 /* mapability · funcionamiento sin conexión
    Guarda la web y las fichas para que la guía y el glosario se puedan consultar sin internet.
    Al cambiar archivos de la web, sube el número de VERSION. */
-var VERSION = "mapability-v1";
+var VERSION = "mapability-v2";
 var BASE = [
   "./",
   "index.html",
@@ -18,6 +18,7 @@ var BASE = [
   "datos/centros.json",
   "datos/glosario.json",
   "datos/webinars.json",
+  "datos/noticias.json",
   "content/mapas/madrid.geojson"
 ];
 

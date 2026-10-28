@@ -13,6 +13,7 @@
   ],
   "donde": "Instituto Nacional de la Seguridad Social, en su sede electrónica o con cita previa en un centro de atención.",
   "plazos": "Se puede pedir en cualquier momento desde que se tiene el certificado.",
+  "espera_semanas": 8,
   "enlace_oficial": "https://www.seg-social.es",
   "enlace_texto": "Seguridad Social",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -20,6 +21,9 @@
   "relacionados": [
     "content/tramites/certificado-discapacidad.json",
     "content/tramites/beneficios-fiscales.json"
+  ],
+  "requiere": [
+    "content/tramites/certificado-discapacidad.json"
   ],
   "terapias": [],
   "borrador": true

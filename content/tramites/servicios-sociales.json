@@ -12,6 +12,7 @@
   ],
   "donde": "Centro de servicios sociales que corresponda a tu domicilio. En Madrid capital se pide cita por teléfono o en la web del Ayuntamiento; en el resto de municipios, en su ayuntamiento.",
   "plazos": "No hay plazo. Conviene pedir cita pronto porque la espera puede ser de varias semanas.",
+  "espera_semanas": 3,
   "enlace_oficial": "https://www.madrid.es",
   "enlace_texto": "Ayuntamiento de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -20,6 +21,7 @@
     "content/tramites/valoracion-dependencia.json",
     "content/tramites/certificado-discapacidad.json"
   ],
+  "requiere": [],
   "terapias": [],
   "borrador": true
 }

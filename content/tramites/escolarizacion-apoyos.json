@@ -11,6 +11,7 @@
   ],
   "donde": "Habla con la dirección o la orientación del centro educativo. Si aún no está escolarizado, con el equipo de orientación de tu zona.",
   "plazos": "Antes del proceso de admisión escolar de cada curso, que suele ser en primavera.",
+  "espera_semanas": 12,
   "enlace_oficial": "https://www.comunidad.madrid",
   "enlace_texto": "Comunidad de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -19,6 +20,7 @@
     "content/tramites/beca-neae.json",
     "content/tramites/atencion-temprana.json"
   ],
+  "requiere": [],
   "terapias": [
     "content/glosario/logopedia.json",
     "content/glosario/psicologia.json"

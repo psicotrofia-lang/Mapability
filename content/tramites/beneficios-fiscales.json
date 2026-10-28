@@ -11,6 +11,7 @@
   ],
   "donde": "Agencia Tributaria, en la declaración anual o en su sede electrónica para el cobro anticipado.",
   "plazos": "En la campaña de la renta de cada año. El cobro anticipado se puede pedir en cualquier momento.",
+  "espera_semanas": 0,
   "enlace_oficial": "https://sede.agenciatributaria.gob.es",
   "enlace_texto": "Agencia Tributaria",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -18,6 +19,9 @@
   "relacionados": [
     "content/tramites/certificado-discapacidad.json",
     "content/tramites/familia-numerosa.json"
+  ],
+  "requiere": [
+    "content/tramites/certificado-discapacidad.json"
   ],
   "terapias": [],
   "borrador": true

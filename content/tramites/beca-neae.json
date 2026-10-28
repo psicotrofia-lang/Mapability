@@ -12,6 +12,7 @@
   ],
   "donde": "Sede electrónica del Ministerio de Educación, con firma del centro educativo.",
   "plazos": "Una convocatoria al año, normalmente entre verano y otoño. Hay que estar atentos a la fecha.",
+  "espera_semanas": 20,
   "enlace_oficial": "https://www.educacionfpydeportes.gob.es",
   "enlace_texto": "Ministerio de Educación",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -19,6 +20,7 @@
   "relacionados": [
     "content/tramites/escolarizacion-apoyos.json"
   ],
+  "requiere": [],
   "terapias": [
     "content/glosario/logopedia.json"
   ],
