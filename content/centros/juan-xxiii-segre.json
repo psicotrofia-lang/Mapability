@@ -1,0 +1,32 @@
+{
+  "nombre": "Juan XXIII Segre",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Chamartín",
+  "direccion": "C/ Segre, 8",
+  "cp": "28002",
+  "lat": 40.450834,
+  "lng": -3.683217,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 413 73 49",
+  "email": "atenciontemprana@fundacionjuan23.org",
+  "web": "https://www.fundacionjuanxxiii.org/atenciontemprana",
+  "horario": "L-V 08:30-18:30",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

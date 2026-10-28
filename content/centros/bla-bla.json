@@ -1,0 +1,29 @@
+{
+  "nombre": "Bla Bla",
+  "descripcion": "Fuente: OpenStreetMap (node/4879085581). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "",
+  "cp": "",
+  "lat": 40.490535,
+  "lng": -3.649509,
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 91 755 57 34",
+  "email": "",
+  "web": "https://www.logopediasanchinarro.es/",
+  "horario": "Mo-Fr 09:00-21:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

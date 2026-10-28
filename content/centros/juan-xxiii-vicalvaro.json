@@ -1,0 +1,32 @@
+{
+  "nombre": "Juan XXIII Vicálvaro",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Vicálvaro",
+  "direccion": "Avenida de la Gran Vía del Este, 4",
+  "cp": "28032",
+  "lat": 40.403143,
+  "lng": -3.595904,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 413 73 49",
+  "email": "atenciontemprana@fundacionjuan23.org",
+  "web": "https://www.fundacionjuanxxiii.org/atenciontemprana",
+  "horario": "L-V 08:30-18:30",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

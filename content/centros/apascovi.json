@@ -1,0 +1,32 @@
+{
+  "nombre": "APASCOVI",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Collado Villalba",
+  "distrito": "",
+  "direccion": "C/ José María Usandizaga, 34 bis",
+  "cp": "28409",
+  "lat": 40.633944,
+  "lng": -4.024137,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 850 63 92 ext. 2 / 646 463 515",
+  "email": "atemprana@apascovi.org",
+  "web": "https://www.apascovifundacion.org",
+  "horario": "L-J 08:30-19:15; V 08:30-17:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

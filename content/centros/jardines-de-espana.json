@@ -1,0 +1,32 @@
+{
+  "nombre": "Jardines de España",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Villanueva de la Cañada",
+  "distrito": "",
+  "direccion": "Avenida Mirasierra, 1",
+  "cp": "28691",
+  "lat": 40.456092,
+  "lng": -3.993389,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 811 77 60 / 629 21 66 26",
+  "email": "jares2@hotmail.com",
+  "web": "https://www.fundacionjares.org",
+  "horario": "L-J 09:00-19:00; V 08:00-14:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

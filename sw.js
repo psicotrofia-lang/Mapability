@@ -1,7 +1,7 @@
 /* mapability · funcionamiento sin conexión
    Guarda la web y las fichas para que la guía y el glosario se puedan consultar sin internet.
    Al cambiar archivos de la web, sube el número de VERSION. */
-var VERSION = "mapability-v2";
+var VERSION = "mapability-v3";
 var BASE = [
   "./",
   "index.html",

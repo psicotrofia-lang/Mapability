@@ -1,0 +1,32 @@
+{
+  "nombre": "AMIVAL",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Valdemoro",
+  "distrito": "",
+  "direccion": "C/ Apolo, 22",
+  "cp": "28341",
+  "lat": 40.179129,
+  "lng": -3.680883,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 865 73 46 / 620 943 225",
+  "email": "cattamival@amival.org",
+  "web": "https://www.amival.org",
+  "horario": "L-V 09:30-13:30 y 15:00-18:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

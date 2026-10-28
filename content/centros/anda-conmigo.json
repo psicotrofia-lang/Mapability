@@ -1,0 +1,32 @@
+{
+  "nombre": "Anda Conmigo",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Boadilla del Monte",
+  "distrito": "",
+  "direccion": "C/ de los Mártires, 11, bajo",
+  "cp": "28660",
+  "lat": 40.407312,
+  "lng": -3.876419,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 632 69 91 / 673 768 211",
+  "email": "boadilla@andaconmigo.com",
+  "web": "https://www.andaconmigo.com/cat/boadilla",
+  "horario": "L-V 10:00-14:00 y 16:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

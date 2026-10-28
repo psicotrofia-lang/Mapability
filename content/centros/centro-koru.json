@@ -1,0 +1,29 @@
+{
+  "nombre": "Centro Koru",
+  "descripcion": "Fuente: OpenStreetMap (node/9154026273). Datos pendientes de comprobar con el centro.",
+  "municipio": "Coslada",
+  "distrito": "",
+  "direccion": "12",
+  "cp": "28821",
+  "lat": 40.416893,
+  "lng": -3.574264,
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 648 785 568",
+  "email": "info@centrokoru.es",
+  "web": "https://www.centrokoru.com/",
+  "horario": "Mo-Fr 11:30-13:30,15:30-20:00; Sa 10:30-13:30",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

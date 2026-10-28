@@ -1,0 +1,32 @@
+{
+  "nombre": "Instituto San José",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Latina",
+  "direccion": "C/ Pinar de San José, 98",
+  "cp": "28054",
+  "lat": 40.361796,
+  "lng": -3.774635,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 508 01 40",
+  "email": "hospitalfundacionsanjose.atenciontemprana@sjd.es",
+  "web": "https://www.fundacioninstitutosanjose.com",
+  "horario": "L-V 08:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

@@ -1,0 +1,32 @@
+{
+  "nombre": "MITAI",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Pozuelo de Alarcón",
+  "distrito": "",
+  "direccion": "Vía de las Dos Castillas, 32",
+  "cp": "28223",
+  "lat": 40.44048,
+  "lng": -3.786532,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 351 57 13 / 625 529 047",
+  "email": "mitai@mitai.es",
+  "web": "https://www.mitai.es",
+  "horario": "L, X, V 09:00-20:30; M y J 12:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

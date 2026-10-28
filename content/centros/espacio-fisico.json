@@ -1,0 +1,29 @@
+{
+  "nombre": "Espacio Físico",
+  "descripcion": "Fuente: OpenStreetMap (node/10220395207). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "",
+  "cp": "",
+  "lat": 40.407522,
+  "lng": -3.676596,
+  "terapias": [
+    "content/glosario/terapia-ocupacional.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

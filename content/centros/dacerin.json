@@ -1,0 +1,32 @@
+{
+  "nombre": "DACERIN",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "San Sebastián de los Reyes",
+  "distrito": "",
+  "direccion": "C/ Francisco Ayala, 10",
+  "cp": "28702",
+  "lat": 40.563024,
+  "lng": -3.612715,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 667 16 46",
+  "email": "info@dacer.org",
+  "web": "https://www.dacer.org",
+  "horario": "L-J 09:00-14:00 y 16:00-20:00; V 09:00-14:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

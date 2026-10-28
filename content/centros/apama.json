@@ -1,0 +1,32 @@
+{
+  "nombre": "APAMA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Alcobendas",
+  "distrito": "",
+  "direccion": "C/ Pablo Serrano, s/n",
+  "cp": "28100",
+  "lat": 40.537397,
+  "lng": -3.638787,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 662 06 41",
+  "email": "apamacatco@yahoo.es",
+  "web": "https://www.apama.es",
+  "horario": "L-J 08:30-15:00 y 16:00-18:30; V 09:30-14:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

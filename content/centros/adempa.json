@@ -1,0 +1,32 @@
+{
+  "nombre": "ADEMPA",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Parla",
+  "distrito": "",
+  "direccion": "C/ Villaverde, 1",
+  "cp": "28981",
+  "lat": 40.243017,
+  "lng": -3.77211,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 698 43 11 / 628 604 359",
+  "email": "secretaria@adempa.org",
+  "web": "https://www.adempa.org",
+  "horario": "L-V 08:30-14:00 y 15:00-20:30",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

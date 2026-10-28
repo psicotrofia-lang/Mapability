@@ -1,0 +1,32 @@
+{
+  "nombre": "anda CONMiGO",
+  "descripcion": "Fuente: OpenStreetMap (node/10753912225). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "Calle de Espronceda 29",
+  "cp": "28003",
+  "lat": 40.440599,
+  "lng": -3.695447,
+  "terapias": [
+    "content/glosario/fisioterapia.json",
+    "content/glosario/logopedia.json",
+    "content/glosario/psicologia.json",
+    "content/glosario/psicomotricidad.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 912 938 372",
+  "email": "chamberi@andaconmigo.com",
+  "web": "https://andaconmigo.com",
+  "horario": "Mo-Fr 11:00-14:00, 16:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

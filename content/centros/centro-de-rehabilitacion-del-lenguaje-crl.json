@@ -1,0 +1,32 @@
+{
+  "nombre": "Centro de Rehabilitación del Lenguaje (CRL)",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Salamanca",
+  "direccion": "Avenida de los Toreros, 10",
+  "cp": "28028",
+  "lat": 40.431903,
+  "lng": -3.669405,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 575 96 51 ext. 3",
+  "email": "catcrl@crl.es",
+  "web": "https://www.atenciontemprana.crl.es",
+  "horario": "L-V 08:15-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

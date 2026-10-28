@@ -1,0 +1,29 @@
+{
+  "nombre": "NeuroDei Psicólogos infantiles y juveniles",
+  "descripcion": "Fuente: OpenStreetMap (node/13593073643). Datos pendientes de comprobar con el centro.",
+  "municipio": "Alcobendas",
+  "distrito": "",
+  "direccion": "Calle Sueños 5",
+  "cp": "28100",
+  "lat": 40.551446,
+  "lng": -3.659303,
+  "terapias": [
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34 684 242 377",
+  "email": "",
+  "web": "https://www.neurodei.com/",
+  "horario": "",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

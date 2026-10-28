@@ -382,7 +382,7 @@
       "</div>" +
       '<div class="mapa-vista__mapa"><div id="mapa-lienzo" role="region" aria-label="Mapa de centros"></div>' +
       '<div class="leyenda"><span><i></i> Concertado o privado</span><span><i class="publico"></i> Público</span></div>' +
-      '<p class="mapa-nota">Todos los centros de este prototipo son ficticios.' +
+      '<p class="mapa-nota">Centros sacados de fuentes públicas, todavía sin comprobar con cada centro. Los de deporte y ocio son ejemplos ficticios.' +
       (window.MAPABILITY_DATA ? " En esta vista previa el mapa no muestra calles; en la web publicada sí." : "") + "</p></div>" +
       "</div>";
   }

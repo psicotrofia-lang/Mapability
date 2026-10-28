@@ -1,0 +1,29 @@
+{
+  "nombre": "Logopedia y Más",
+  "descripcion": "Fuente: OpenStreetMap (node/8889438971). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "",
+  "direccion": "Calle de Juan Antonio Bardem 4",
+  "cp": "28051",
+  "lat": 40.368538,
+  "lng": -3.594142,
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "+34652988487",
+  "email": "info@logopediaymas.es",
+  "web": "https://www.logopediaymas.es/madrid/ensanche-de-vallecas/",
+  "horario": "Mo-Fr 09:00-22:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

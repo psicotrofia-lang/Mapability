@@ -1,0 +1,32 @@
+{
+  "nombre": "ACEOPS Ensanche",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Villa de Vallecas",
+  "direccion": "C/ Fernando Chueca Goitia, 14, bajo",
+  "cp": "28051",
+  "lat": 40.366123,
+  "lng": -3.590431,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 483 48 98 / 690 281 033",
+  "email": "aceopsensanche@aceops.com",
+  "web": "https://www.aceops.es",
+  "horario": "L-M 09:30-14:00; J 15:00-19:00; V 12:00-17:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

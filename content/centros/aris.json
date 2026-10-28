@@ -1,0 +1,32 @@
+{
+  "nombre": "ARIS",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Madrid",
+  "distrito": "Carabanchel",
+  "direccion": "C/ Álvarez Abellán, 6",
+  "cp": "28025",
+  "lat": 40.385121,
+  "lng": -3.73286,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 462 62 22",
+  "email": "info@grupo-aris.es",
+  "web": "https://www.grupo-aris.es",
+  "horario": "L-V 08:00-20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

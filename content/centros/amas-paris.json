@@ -1,0 +1,32 @@
+{
+  "nombre": "AMÁS París",
+  "descripcion": "Fuente: Red pública de atención temprana (Comunidad de Madrid, oct. 2025). Datos pendientes de comprobar con el centro.",
+  "municipio": "Móstoles",
+  "distrito": "",
+  "direccion": "C/ Juan Gómez, 1",
+  "cp": "28938",
+  "lat": 40.315671,
+  "lng": -3.861617,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "91 645 76 45",
+  "email": "atencion.temprana@fundacion-amas.org",
+  "web": "https://www.grupoamas.org",
+  "horario": "L-V 08:30-19:30",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}
