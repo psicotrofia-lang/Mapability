@@ -1,0 +1,22 @@
+{
+  "orden": 2,
+  "titulo": "Vamos a escolarizar",
+  "subtitulo": "Primer colegio, cambio de etapa o cambio de centro.",
+  "intro": "La escolarización con apoyos se prepara con tiempo, antes del periodo de admisión de primavera.",
+  "comunidad": "madrid",
+  "pasos": [
+    {
+      "tramite": "content/tramites/escolarizacion-apoyos.json",
+      "nota": "El dictamen de escolarización decide la modalidad y los apoyos."
+    },
+    {
+      "tramite": "content/tramites/certificado-discapacidad.json",
+      "nota": "No es obligatorio para escolarizar, pero ayuda en becas y apoyos."
+    },
+    {
+      "tramite": "content/tramites/beca-neae.json",
+      "nota": "Una convocatoria al año: apunta la fecha."
+    }
+  ],
+  "borrador": true
+}

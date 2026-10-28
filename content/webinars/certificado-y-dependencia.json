@@ -1,0 +1,15 @@
+{
+  "titulo": "Cómo pedir el certificado de discapacidad y la dependencia",
+  "fecha": "2027-01-14",
+  "hora": "18:30",
+  "duracion_min": 60,
+  "imparte": "Equipo de mapability",
+  "resumen": "Paso a paso por los dos trámites que abren la puerta a casi todas las ayudas, con los documentos que conviene llevar preparados.",
+  "enlace_inscripcion": "",
+  "grabacion": "",
+  "tramites": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/valoracion-dependencia.json"
+  ],
+  "borrador": true
+}

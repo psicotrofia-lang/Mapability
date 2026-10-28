@@ -1,0 +1,16 @@
+{
+  "titulo": "Primeros pasos tras el diagnóstico",
+  "fecha": "2026-12-03",
+  "hora": "18:30",
+  "duracion_min": 60,
+  "imparte": "Equipo de mapability",
+  "resumen": "Qué hacer en las primeras semanas: a quién acudir, qué trámites pedir primero y cómo cuidar de la familia mientras tanto.",
+  "enlace_inscripcion": "",
+  "grabacion": "",
+  "tramites": [
+    "content/tramites/servicios-sociales.json",
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/atencion-temprana.json"
+  ],
+  "borrador": true
+}

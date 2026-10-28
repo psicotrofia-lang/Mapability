@@ -1,0 +1,26 @@
+{
+  "titulo": "Ayuda para alumnado con necesidad específica de apoyo educativo",
+  "resumen": "Una ayuda anual del Ministerio de Educación para pagar reeducación, transporte o material escolar.",
+  "ambito": "estatal",
+  "comunidad": "",
+  "que_es": "Convocatoria anual del Ministerio de Educación para alumnado con necesidad específica de apoyo educativo. Puede cubrir enseñanza, transporte, comedor, material o reeducación pedagógica y del lenguaje.",
+  "quien_puede": "Alumnado con necesidades educativas especiales asociadas a discapacidad o trastorno grave de conducta o de la comunicación, entre otros. Hay límites de renta y de edad que cambian cada año.",
+  "documentos": [
+    "Certificado de discapacidad o informe del equipo de orientación",
+    "Certificado del centro educativo",
+    "Datos de renta de la familia"
+  ],
+  "donde": "Sede electrónica del Ministerio de Educación, con firma del centro educativo.",
+  "plazos": "Una convocatoria al año, normalmente entre verano y otoño. Hay que estar atentos a la fecha.",
+  "enlace_oficial": "https://www.educacionfpydeportes.gob.es",
+  "enlace_texto": "Ministerio de Educación",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/escolarizacion-apoyos.json"
+  ],
+  "terapias": [
+    "content/glosario/logopedia.json"
+  ],
+  "borrador": true
+}

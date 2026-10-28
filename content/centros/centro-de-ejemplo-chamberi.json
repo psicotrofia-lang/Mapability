@@ -1,0 +1,30 @@
+{
+  "nombre": "Centro de ejemplo Chamberí",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Madrid",
+  "distrito": "Chamberí",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28010",
+  "lat": 40.434,
+  "lng": -3.704,
+  "terapias": [
+    "content/glosario/terapia-ocupacional.json",
+    "content/glosario/integracion-sensorial.json"
+  ],
+  "edad_min": 2,
+  "edad_max": 14,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

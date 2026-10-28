@@ -1,0 +1,12 @@
+{
+  "nombre": "Grado de dependencia",
+  "tipo": "termino",
+  "resumen": "Mide cuánta ayuda de otra persona se necesita en el día a día: grado I, II o III.",
+  "que_es": "El grado I es dependencia moderada, el II es severa y el III es gran dependencia. No es lo mismo que el grado de discapacidad: se valoran cosas distintas y se piden por separado.",
+  "a_quien_ayuda": "",
+  "como_es_sesion": "",
+  "quien_la_imparte": "",
+  "red_publica": "",
+  "evidencia": "",
+  "borrador": true
+}

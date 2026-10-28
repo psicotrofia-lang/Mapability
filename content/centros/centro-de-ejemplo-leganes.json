@@ -1,0 +1,30 @@
+{
+  "nombre": "Centro de ejemplo Leganés",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Leganés",
+  "distrito": "",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28911",
+  "lat": 40.327,
+  "lng": -3.764,
+  "terapias": [
+    "content/glosario/fisioterapia.json",
+    "content/glosario/hidroterapia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 18,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

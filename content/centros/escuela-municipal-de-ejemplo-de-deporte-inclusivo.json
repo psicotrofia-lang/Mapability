@@ -1,0 +1,29 @@
+{
+  "nombre": "Escuela municipal de ejemplo de deporte inclusivo",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Fuenlabrada",
+  "distrito": "",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28943",
+  "lat": 40.284,
+  "lng": -3.794,
+  "terapias": [
+    "content/glosario/deporte-adaptado.json"
+  ],
+  "edad_min": 6,
+  "edad_max": 99,
+  "financiacion": "publico",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

@@ -1,0 +1,24 @@
+{
+  "titulo": "Prestación por cuidado de menor con enfermedad grave",
+  "resumen": "Compensa la reducción de jornada de la madre o el padre que cuida de un menor con cáncer u otra enfermedad grave.",
+  "ambito": "estatal",
+  "comunidad": "",
+  "que_es": "Prestación de la Seguridad Social para personas trabajadoras que reducen su jornada al menos a la mitad para cuidar de forma directa y continua a un hijo o hija con una enfermedad grave que requiere ingreso o cuidados prolongados.",
+  "quien_puede": "Madres y padres que trabajan, cuando ambos trabajan y uno reduce su jornada. Hay una lista oficial de enfermedades incluidas.",
+  "documentos": [
+    "Declaración del servicio de salud sobre la enfermedad y la necesidad de cuidado",
+    "Certificado de la empresa sobre la reducción de jornada",
+    "DNI o NIE y libro de familia"
+  ],
+  "donde": "Mutua de la empresa o Instituto Nacional de la Seguridad Social.",
+  "plazos": "Desde el inicio de la reducción de jornada. Se revisa periódicamente.",
+  "enlace_oficial": "https://www.seg-social.es",
+  "enlace_texto": "Seguridad Social",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/prestacion-hijo-cargo.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

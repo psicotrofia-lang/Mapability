@@ -1,0 +1,416 @@
+# Panel de edición de mapability (Pages CMS: https://app.pagescms.org)
+# Cada ficha es un archivo dentro de content/. Al guardar en el panel se publica sola en la web.
+
+media:
+  input: assets/imagenes
+  output: assets/imagenes
+
+content:
+  - name: tramites
+    label: Trámites y ayudas
+    description: Las fichas de la guía de trabajo social.
+    type: collection
+    path: content/tramites
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: titulo
+      fields: [titulo, ambito, revisado, borrador]
+      sort: titulo
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: resumen
+        label: Resumen
+        description: Una o dos frases. Es lo que se ve en las listas.
+        type: text
+        required: true
+      - name: ambito
+        label: Ámbito
+        description: Estatal es igual en toda España. Comunidad y municipio cambian según dónde viva la familia.
+        type: select
+        required: true
+        options:
+          values:
+            - name: estatal
+              label: Estatal
+            - name: autonomico
+              label: Comunidad autónoma
+            - name: municipal
+              label: Municipio
+      - name: comunidad
+        label: Comunidad
+        description: Déjalo vacío si es estatal.
+        type: select
+        options:
+          values:
+            - name: madrid
+              label: Comunidad de Madrid
+      - name: que_es
+        label: Qué es
+        type: text
+      - name: quien_puede
+        label: Quién puede pedirlo
+        type: text
+      - name: documentos
+        label: Documentos necesarios
+        type: string
+        list: true
+      - name: donde
+        label: Dónde se pide
+        type: text
+      - name: plazos
+        label: Plazos
+        type: text
+      - name: enlace_oficial
+        label: Enlace a la web oficial
+        description: Debe empezar por https://
+        type: string
+      - name: enlace_texto
+        label: Texto del enlace
+        description: Por ejemplo, «Comunidad de Madrid».
+        type: string
+      - name: fuente
+        label: Fuente oficial
+        description: Norma o página oficial de la que sale la información.
+        type: text
+      - name: revisado
+        label: Fecha de la última revisión
+        type: date
+      - name: relacionados
+        label: Trámites relacionados
+        type: reference
+        options:
+          collection: tramites
+          multiple: true
+          value: "{path}"
+          label: "{titulo}"
+          search: titulo
+      - name: terapias
+        label: Terapias relacionadas
+        type: reference
+        options:
+          collection: glosario
+          multiple: true
+          value: "{path}"
+          label: "{nombre}"
+          search: nombre
+      - name: borrador
+        label: Borrador
+        description: Márcalo mientras la ficha no esté revisada. Se mostrará la etiqueta «Borrador».
+        type: boolean
+        default: true
+
+  - name: itinerarios
+    label: Itinerarios de la guía
+    description: Rutas paso a paso para un momento concreto («Acabamos de recibir un diagnóstico»).
+    type: collection
+    path: content/itinerarios
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: titulo
+      fields: [titulo, orden]
+      sort: orden
+    fields:
+      - name: orden
+        label: Orden en la portada
+        type: number
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: subtitulo
+        label: Subtítulo
+        type: string
+      - name: intro
+        label: Introducción
+        type: text
+      - name: comunidad
+        label: Comunidad
+        type: select
+        options:
+          values:
+            - name: madrid
+              label: Comunidad de Madrid
+      - name: pasos
+        label: Pasos
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nota}"
+        fields:
+          - name: tramite
+            label: Trámite
+            type: reference
+            options:
+              collection: tramites
+              value: "{path}"
+              label: "{titulo}"
+              search: titulo
+          - name: nota
+            label: Nota para la familia
+            description: Por qué este paso va aquí.
+            type: string
+      - name: borrador
+        label: Borrador
+        type: boolean
+        default: true
+
+  - name: centros
+    label: Centros del mapa
+    type: collection
+    path: content/centros
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: nombre
+      fields: [nombre, municipio, financiacion, verificado]
+      sort: nombre
+    fields:
+      - name: nombre
+        label: Nombre del centro
+        type: string
+        required: true
+      - name: descripcion
+        label: Descripción breve
+        type: text
+      - name: municipio
+        label: Municipio
+        type: string
+        required: true
+      - name: distrito
+        label: Distrito o barrio
+        type: string
+      - name: direccion
+        label: Dirección
+        type: string
+      - name: cp
+        label: Código postal
+        type: string
+      - name: lat
+        label: Latitud
+        description: "En Google Maps, haz clic derecho sobre el centro y pulsa en las coordenadas para copiarlas. El primer número es la latitud (por ejemplo 40.4168)."
+        type: number
+        required: true
+      - name: lng
+        label: Longitud
+        description: "El segundo número de las coordenadas (en Madrid es negativo, por ejemplo -3.7038)."
+        type: number
+        required: true
+      - name: terapias
+        label: Terapias que ofrece
+        type: reference
+        options:
+          collection: glosario
+          multiple: true
+          value: "{path}"
+          label: "{nombre}"
+          search: nombre
+      - name: edad_min
+        label: Edad mínima que atiende (años)
+        type: number
+        default: 0
+      - name: edad_max
+        label: Edad máxima que atiende (años)
+        description: Pon 99 si no hay límite.
+        type: number
+        default: 99
+      - name: financiacion
+        label: Tipo de centro
+        type: select
+        required: true
+        options:
+          values:
+            - name: publico
+              label: Público
+            - name: concertado
+              label: Concertado
+            - name: privado
+              label: Privado
+      - name: red_atencion_temprana
+        label: Forma parte de la red pública de atención temprana
+        type: boolean
+      - name: accesible
+        label: Accesible en silla de ruedas
+        type: boolean
+      - name: idiomas
+        label: Idiomas
+        type: string
+        list: true
+      - name: telefono
+        label: Teléfono
+        type: string
+      - name: email
+        label: Correo electrónico
+        type: string
+      - name: web
+        label: Web
+        description: Debe empezar por https://
+        type: string
+      - name: horario
+        label: Horario
+        type: string
+      - name: verificado
+        label: Fecha de verificación por mapability
+        description: Déjalo vacío hasta que hayáis comprobado los datos con el centro.
+        type: date
+      - name: destacado
+        label: Destacado (visibilidad de pago)
+        type: boolean
+      - name: comunidad
+        label: Comunidad
+        type: select
+        options:
+          values:
+            - name: madrid
+              label: Comunidad de Madrid
+      - name: borrador
+        label: Borrador
+        type: boolean
+        default: true
+
+  - name: glosario
+    label: Glosario de terapias
+    type: collection
+    path: content/glosario
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: nombre
+      fields: [nombre, tipo, borrador]
+      sort: nombre
+    fields:
+      - name: nombre
+        label: Nombre
+        type: string
+        required: true
+      - name: tipo
+        label: Tipo
+        type: select
+        required: true
+        options:
+          values:
+            - name: terapia
+              label: Terapia
+            - name: deporte
+              label: Deporte y ocio
+            - name: termino
+              label: Palabra de los trámites
+      - name: resumen
+        label: Resumen
+        description: Una o dos frases en lenguaje claro.
+        type: text
+        required: true
+      - name: que_es
+        label: Qué es
+        type: text
+      - name: a_quien_ayuda
+        label: A quién suele ayudar
+        description: Solo para terapias.
+        type: text
+      - name: como_es_sesion
+        label: Cómo es una sesión
+        type: text
+      - name: quien_la_imparte
+        label: Quién la imparte
+        type: text
+      - name: red_publica
+        label: ¿La cubre la red pública?
+        type: text
+      - name: evidencia
+        label: Qué dice la evidencia
+        description: A redactar por el comité profesional.
+        type: text
+      - name: borrador
+        label: Borrador
+        type: boolean
+        default: true
+
+  - name: webinars
+    label: Webinars
+    type: collection
+    path: content/webinars
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: titulo
+      fields: [titulo, fecha]
+      sort: fecha
+      order: desc
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: fecha
+        label: Fecha
+        type: date
+        required: true
+      - name: hora
+        label: Hora
+        description: Por ejemplo, 18:30
+        type: string
+      - name: duracion_min
+        label: Duración (minutos)
+        type: number
+        default: 60
+      - name: imparte
+        label: Imparte
+        type: string
+      - name: resumen
+        label: De qué trata
+        type: text
+      - name: enlace_inscripcion
+        label: Enlace de inscripción
+        type: string
+      - name: grabacion
+        label: Enlace a la grabación
+        description: Cuando lo pongas, la tarjeta mostrará «Ver la grabación».
+        type: string
+      - name: tramites
+        label: Trámites relacionados
+        type: reference
+        options:
+          collection: tramites
+          multiple: true
+          value: "{path}"
+          label: "{titulo}"
+          search: titulo
+      - name: borrador
+        label: Borrador
+        type: boolean
+        default: true
+
+  - name: comunidades
+    label: Comunidades autónomas
+    description: Qué comunidades están abiertas. De momento, solo Madrid.
+    type: file
+    path: content/comunidades.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Identificador
+        type: string
+      - name: nombre
+        label: Nombre
+        type: string
+      - name: activa
+        label: Activa
+        type: boolean
+      - name: centro_lat
+        label: Latitud del centro del mapa
+        type: number
+      - name: centro_lng
+        label: Longitud del centro del mapa
+        type: number
+      - name: zoom
+        label: Zoom inicial del mapa
+        type: number
+      - name: limite
+        label: Archivo con el contorno
+        type: string

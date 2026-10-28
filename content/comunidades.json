@@ -1,0 +1,14 @@
+[
+  {
+    "id": "madrid",
+    "nombre": "Comunidad de Madrid",
+    "activa": true,
+    "centro_lat": 40.45,
+    "centro_lng": -3.7,
+    "zoom": 9,
+    "limite": "content/mapas/madrid.geojson"
+  },
+  { "id": "andalucia", "nombre": "Andalucía", "activa": false },
+  { "id": "cataluna", "nombre": "Cataluña", "activa": false },
+  { "id": "valenciana", "nombre": "Comunitat Valenciana", "activa": false }
+]

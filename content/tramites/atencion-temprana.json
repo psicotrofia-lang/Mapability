@@ -1,0 +1,30 @@
+{
+  "titulo": "Atención temprana (de 0 a 6 años)",
+  "resumen": "Terapias gratuitas de la red pública para niñas y niños de 0 a 6 años con dificultades en su desarrollo o riesgo de tenerlas.",
+  "ambito": "autonomico",
+  "comunidad": "madrid",
+  "que_es": "Es el conjunto de terapias y apoyos para la infancia de 0 a 6 años y su familia. En la Comunidad de Madrid se accede a la red pública tras una valoración en un centro regional, que asigna un centro de atención temprana concertado.",
+  "quien_puede": "Niñas y niños de 0 a 6 años residentes en la Comunidad de Madrid con un trastorno del desarrollo o riesgo de padecerlo. No hace falta tener el certificado de discapacidad.",
+  "documentos": [
+    "Informe de derivación del pediatra, de servicios sociales o del equipo educativo",
+    "Informes médicos y de desarrollo que tengáis",
+    "DNI o NIE de la persona que solicita y del menor si lo tiene"
+  ],
+  "donde": "Habla primero con tu pediatra o con el equipo de la escuela infantil: son quienes suelen hacer la derivación al centro regional de valoración.",
+  "plazos": "Cuanto antes, mejor: la atención temprana termina a los 6 años. Pregunta por el tiempo de espera de la valoración.",
+  "enlace_oficial": "https://www.comunidad.madrid",
+  "enlace_texto": "Comunidad de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/escolarizacion-apoyos.json"
+  ],
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/terapia-ocupacional.json"
+  ],
+  "borrador": true
+}

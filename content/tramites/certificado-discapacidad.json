@@ -1,0 +1,27 @@
+{
+  "titulo": "Certificado de discapacidad",
+  "resumen": "Reconoce oficialmente el grado de discapacidad. A partir del 33 % da acceso a la mayoría de ayudas y beneficios.",
+  "ambito": "autonomico",
+  "comunidad": "madrid",
+  "que_es": "Es la resolución de la Comunidad de Madrid que reconoce el grado de discapacidad, en porcentaje. Es la llave de muchos otros trámites: prestaciones, beneficios fiscales, familia numerosa, becas o la tarjeta de estacionamiento.",
+  "quien_puede": "Cualquier persona residente en la Comunidad de Madrid, también bebés y menores. Lo solicita la madre, el padre o la persona tutora.",
+  "documentos": [
+    "Solicitud oficial cumplimentada",
+    "DNI o NIE de la persona que solicita y del menor si lo tiene",
+    "Informes médicos, psicológicos o sociales actualizados que describan la situación"
+  ],
+  "donde": "Centros base de valoración y orientación de la Comunidad de Madrid, por registro presencial o por la sede electrónica.",
+  "plazos": "Se puede pedir en cualquier momento. La resolución puede tardar varios meses. En menores suele tener fecha de revisión.",
+  "enlace_oficial": "https://www.comunidad.madrid",
+  "enlace_texto": "Comunidad de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/tarjeta-discapacidad.json",
+    "content/tramites/prestacion-hijo-cargo.json",
+    "content/tramites/beneficios-fiscales.json",
+    "content/tramites/familia-numerosa.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

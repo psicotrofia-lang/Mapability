@@ -1,0 +1,25 @@
+{
+  "titulo": "Cita con los servicios sociales de tu municipio",
+  "resumen": "La puerta de entrada: una trabajadora social de tu zona te orienta y puede iniciar varios trámites contigo.",
+  "ambito": "municipal",
+  "comunidad": "madrid",
+  "que_es": "Cada municipio tiene un centro de servicios sociales con trabajadoras y trabajadores sociales. Te informan de las ayudas de tu zona, te ayudan a pedir la dependencia y conocen recursos locales que no aparecen en internet.",
+  "quien_puede": "Cualquier persona empadronada en el municipio. No hace falta tener todavía un diagnóstico cerrado.",
+  "documentos": [
+    "DNI o NIE de la madre, el padre o la persona tutora",
+    "Libro de familia o documento que acredite la filiación",
+    "Informes médicos o psicológicos que tengáis, aunque sean provisionales"
+  ],
+  "donde": "Centro de servicios sociales que corresponda a tu domicilio. En Madrid capital se pide cita por teléfono o en la web del Ayuntamiento; en el resto de municipios, en su ayuntamiento.",
+  "plazos": "No hay plazo. Conviene pedir cita pronto porque la espera puede ser de varias semanas.",
+  "enlace_oficial": "https://www.madrid.es",
+  "enlace_texto": "Ayuntamiento de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/valoracion-dependencia.json",
+    "content/tramites/certificado-discapacidad.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}
