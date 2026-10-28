@@ -9,7 +9,7 @@ No hace falta saber programar. Las fichas se editan desde un panel web con formu
 3. Si te lo pide, autoriza a Pages CMS a acceder al repositorio **Mapability**.
 4. Elige el repositorio **Mapability** y la rama **main**.
 
-En el menú de la izquierda verás las secciones: Trámites y ayudas, Itinerarios, Centros del mapa, Glosario de terapias, Webinars y Comunidades autónomas.
+En el menú de la izquierda verás las secciones: Trámites y ayudas, Itinerarios, Centros del mapa, Glosario de terapias, Webinars, Noticias y Comunidades autónomas.
 
 ## Editar una ficha
 
@@ -39,3 +39,16 @@ El nombre del archivo se crea a partir del título. Ese nombre es también la di
 ## Si algo sale mal
 
 Cada guardado queda registrado en GitHub, así que cualquier cambio se puede deshacer. Si la web deja de actualizarse después de guardar, avisad a Claude en el proyecto: la publicación revisa las fichas y se detiene si encuentra un error.
+
+## El orden de «Mi plan»
+
+«Mi plan» ordena solo los trámites de cada familia con dos campos de las fichas de trámites:
+
+- **Tiempo de respuesta habitual (semanas):** lo que suele tardar en resolverse. Lo que más tarda se propone primero, para que la espera corra mientras se avanza con lo demás.
+- **Hay que tener antes:** los trámites que tienen que estar resueltos antes. Por ejemplo, la prestación por hijo a cargo necesita el certificado de discapacidad.
+
+Los tiempos que hay ahora son estimaciones de ejemplo: revisadlos con vuestra experiencia.
+
+## Publicar una noticia
+
+En **Noticias**, pulsa **Add an entry**, rellena título, fecha, categoría, resumen y el texto, y guarda. Si usas una imagen, que sea propia o con permiso, y nunca fotos de menores sin autorización.

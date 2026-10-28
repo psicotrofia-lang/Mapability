@@ -11,6 +11,7 @@
   ],
   "donde": "Comunidad de Madrid. En algunos casos se pide a la vez que el certificado.",
   "plazos": "Tiene la misma validez que el certificado; hay que renovarla si el grado se revisa.",
+  "espera_semanas": 4,
   "enlace_oficial": "https://www.comunidad.madrid",
   "enlace_texto": "Comunidad de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -18,6 +19,9 @@
   "relacionados": [
     "content/tramites/certificado-discapacidad.json",
     "content/tramites/tarjeta-estacionamiento.json"
+  ],
+  "requiere": [
+    "content/tramites/certificado-discapacidad.json"
   ],
   "terapias": [],
   "borrador": true

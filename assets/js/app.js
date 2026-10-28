@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  var ARCHIVOS = ["comunidades", "tramites", "itinerarios", "centros", "glosario", "webinars"];
+  var ARCHIVOS = ["comunidades", "tramites", "itinerarios", "centros", "glosario", "webinars", "noticias"];
   var CLAVE_PLAN = "mapability.plan";
 
   var datos = {};
@@ -17,6 +17,7 @@
   var AMBITOS = { estatal: "Estatal", autonomico: "Comunidad", municipal: "Municipio" };
   var FINANCIACION = { publico: "Público", concertado: "Concertado", privado: "Privado" };
   var TIPOS_GLOSARIO = { terapia: "Terapias", deporte: "Deporte y ocio", termino: "Palabras de los trámites" };
+  var CATEGORIAS = { ayudas: "Ayudas y trámites", investigacion: "Investigación", politica: "Política", terapias: "Terapias", educacion: "Educación", ocio: "Ocio y deporte", familias: "Familias", mapability: "Novedades de mapability" };
   var MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 
   /* ---------- utilidades ---------- */
@@ -73,17 +74,61 @@
     guardarPlan(plan);
   }
 
+  var ESTADOS = { pendiente: "Por hacer", esperando: "Pedido, esperando respuesta", hecho: "Resuelto" };
+
+  function chipEstado(estado) {
+    if (!estado) return "";
+    return '<span class="chip' + (estado === "hecho" ? " chip--hecho" : estado === "esperando" ? " chip--espera" : "") + '">' + ESTADOS[estado] + "</span>";
+  }
+
+  function botonPlan(id, estado, texto, claro) {
+    return '<button class="boton boton--peque' + (claro ? " boton--claro" : "") + '" data-plan="' + esc(id) + '" data-estado="' + estado + '">' + texto + "</button>";
+  }
+
   function botonesPlan(id) {
     var estado = estadoEnPlan(id);
-    if (estado === "hecho") {
-      return '<span class="chip chip--hecho">Hecho</span>' +
-        '<button class="boton boton--claro boton--peque" data-plan="' + esc(id) + '" data-estado="pendiente">Desmarcar</button>';
+    if (estado === "hecho") return chipEstado(estado) + botonPlan(id, "esperando", "Deshacer", true);
+    if (estado === "esperando") return chipEstado(estado) + botonPlan(id, "hecho", "Ya está resuelto");
+    if (estado === "pendiente") return chipEstado(estado) + botonPlan(id, "esperando", "Ya lo he pedido") + botonPlan(id, "", "Quitar", true);
+    return botonPlan(id, "pendiente", "Añadir a mi plan", true);
+  }
+
+  function duracion(semanas) {
+    if (semanas <= 1) return "menos de una semana";
+    if (semanas < 9) return "unas " + Math.round(semanas) + " semanas";
+    var meses = Math.round(semanas / 4.33);
+    return meses === 1 ? "alrededor de un mes" : "unos " + meses + " meses";
+  }
+
+  /* Ordena el plan: qué se puede pedir ya (lo más lento primero, para aprovechar la espera),
+     qué está en marcha y qué depende de otro trámite. La estimación es orientativa. */
+  function ordenarPlan() {
+    var plan = leerPlan();
+    var fin = {};
+    function finDe(id, camino) {
+      if (id in fin) return fin[id];
+      var t = porId(datos.tramites, id);
+      if (!t || plan[id] === "hecho" || camino.indexOf(id) !== -1) return (fin[id] = 0);
+      var inicio = 0;
+      (t.requiere || []).forEach(function (r) { inicio = Math.max(inicio, finDe(r, camino.concat(id))); });
+      return (fin[id] = inicio + (t.espera_semanas || 0));
     }
-    if (estado === "pendiente") {
-      return '<span class="chip">En mi plan</span>' +
-        '<button class="boton boton--peque" data-plan="' + esc(id) + '" data-estado="hecho">Marcar como hecho</button>';
-    }
-    return '<button class="boton boton--claro boton--peque" data-plan="' + esc(id) + '" data-estado="pendiente">Añadir a mi plan</button>';
+    var grupos = { ahora: [], esperando: [], despues: [], hechos: [] };
+    Object.keys(plan).forEach(function (id) {
+      var t = porId(datos.tramites, id);
+      if (!t) return;
+      var falta = (t.requiere || []).filter(function (r) { return plan[r] !== "hecho"; });
+      var item = { t: t, falta: falta, fin: finDe(id, []) };
+      if (plan[id] === "hecho") grupos.hechos.push(item);
+      else if (plan[id] === "esperando") grupos.esperando.push(item);
+      else if (falta.length) grupos.despues.push(item);
+      else grupos.ahora.push(item);
+    });
+    grupos.ahora.sort(function (a, b) { return (b.t.espera_semanas || 0) - (a.t.espera_semanas || 0); });
+    grupos.esperando.sort(function (a, b) { return a.fin - b.fin; });
+    grupos.despues.sort(function (a, b) { return a.fin - b.fin; });
+    grupos.total = Object.keys(plan).reduce(function (m, id) { return Math.max(m, plan[id] === "hecho" ? 0 : finDe(id, [])); }, 0);
+    return grupos;
   }
 
   /* ---------- carga de datos ---------- */
@@ -119,7 +164,7 @@
     }).join("");
 
     return '<section class="portada">' +
-      '<p class="etiqueta">Comunidad de Madrid</p>' +
+      '<p class="etiqueta lema">Orienta <i aria-hidden="true"></i> Conecta <i aria-hidden="true"></i> Acompaña</p>' +
       '<h1>Os acompañamos en el camino, <span>paso a paso</span>.</h1>' +
       '<p class="entradilla">Qué trámites y ayudas os corresponden, en qué orden pedirlos, qué terapias existen y dónde están los centros más cercanos. Sin registrarse y gratis.</p>' +
       '</section>' +
@@ -133,7 +178,9 @@
       '<a class="atajo" href="#glosario"><strong>Entender una terapia</strong><span>Logopedia, fisioterapia, deporte adaptado…</span></a>' +
       '<a class="atajo" href="#guia"><strong>Ver todos los trámites</strong><span>' + datos.tramites.length + ' fichas de ayudas y trámites</span></a>' +
       '<a class="atajo" href="#formacion"><strong>Apuntarte a un webinar</strong><span>Formación gratuita para familias</span></a>' +
-      '</div></section>';
+      '</div></section>' +
+      ((datos.noticias || []).length ? '<section class="seccion" aria-labelledby="t-noticias"><div class="seccion__cabecera"><h2 id="t-noticias">Últimas noticias</h2><a href="#noticias">Ver todas</a></div>' +
+        '<div class="noticias">' + datos.noticias.slice(0, 3).map(tarjetaNoticia).join("") + "</div></section>" : "");
   }
 
   function filaTramite(t) {
@@ -142,7 +189,7 @@
       '<span class="fila__titulo">' + esc(t.titulo) + '</span>' +
       '<span class="fila__texto">' + esc(t.resumen) + '</span>' +
       '<span class="fila__extra">' +
-      (estado === "hecho" ? '<span class="chip chip--hecho">Hecho</span>' : estado ? '<span class="chip">En mi plan</span>' : "") +
+      chipEstado(estado) +
       '<span class="chip chip--ambito">' + esc(AMBITOS[t.ambito] || t.ambito) + '</span></span>' +
       '</a></li>';
   }
@@ -197,7 +244,8 @@
     return '<p class="miga"><a href="#guia">Guía</a></p>' +
       '<section class="lectura"><p class="etiqueta">Itinerario ' + chipBorrador(it) + '</p>' +
       '<h1>' + esc(it.titulo) + '</h1>' +
-      '<p class="entradilla">' + esc(it.intro) + '</p></section>' +
+      '<p class="entradilla">' + esc(it.intro) + '</p>' +
+      '<div class="paso__acciones"><button class="boton boton--peque" data-plan-todos="' + esc(it.id) + '">Añadir todos a mi plan</button><a href="#mi-plan">Ver mi plan ordenado</a></div></section>' +
       '<ol class="pasos">' + pasos + '</ol>' +
       '<p class="mapa-nota">Lo que marques se guarda solo en este dispositivo. mapability no recibe esos datos.</p>';
   }
@@ -234,6 +282,11 @@
       bloque("Plazos", parrafo(t.plazos)) +
       (terapias ? bloque("Terapias relacionadas", '<div class="chips">' + terapias + "</div>") : "") +
       '</div><aside class="ficha__lateral" aria-label="Datos de la ficha"><dl class="datos">' +
+      (t.espera_semanas ? '<div class="dato"><dt>Tiempo de respuesta habitual</dt><dd>' + esc(duracion(t.espera_semanas)) + "</dd></div>" : "") +
+      ((t.requiere || []).length ? '<div class="dato"><dt>Hay que tener antes</dt><dd>' + t.requiere.map(function (rid) {
+        var r = porId(datos.tramites, rid);
+        return r ? '<a href="#tramite-' + esc(r.id) + '">' + esc(r.titulo) + "</a>" : "";
+      }).join("<br>") + "</dd></div>" : "") +
       '<div class="dato"><dt>Web oficial</dt><dd>' + (url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(t.enlace_texto || url) + "</a>" : '<span class="pendiente">Pendiente</span>') + "</dd></div>" +
       '<div class="dato"><dt>Fuente</dt><dd>' + esc(t.fuente || "Pendiente") + "</dd></div>" +
       '<div class="dato"><dt>Última revisión</dt><dd>' + (t.revisado ? esc(fechaLarga(t.revisado)) : '<span class="pendiente">Sin revisar</span>') + "</dd></div>" +
@@ -242,21 +295,57 @@
   }
 
   function vistaMiPlan() {
+    var g = ordenarPlan();
     var plan = leerPlan();
-    var ids = Object.keys(plan);
-    var pendientes = ids.filter(function (id) { return plan[id] === "pendiente"; });
-    var hechos = ids.filter(function (id) { return plan[id] === "hecho"; });
-    function lista(arr) {
-      return '<ul class="lista">' + arr.map(function (id) {
-        var t = porId(datos.tramites, id);
-        return t ? filaTramite(t) : "";
-      }).join("") + "</ul>";
+    var hay = g.ahora.length + g.esperando.length + g.despues.length + g.hechos.length;
+
+    function tarjeta(item, nota, bloqueado) {
+      var t = item.t;
+      return '<li class="plan-item"><div class="plan-item__cuerpo">' +
+        '<a class="plan-item__titulo" href="#tramite-' + esc(t.id) + '">' + esc(t.titulo) + "</a>" +
+        (nota ? '<p class="plan-item__nota">' + nota + "</p>" : "") +
+        '</div><div class="paso__acciones">' + (bloqueado ? chipEstado("pendiente") + botonPlan(t.id, "", "Quitar", true) : botonesPlan(t.id)) + "</div></li>";
     }
+    function nombre(id) { var t = porId(datos.tramites, id); return t ? t.titulo : id; }
+
+    var ahora = g.ahora.map(function (item, i) {
+      var s = item.t.espera_semanas || 0;
+      var nota = s ? "Suele tardar " + esc(duracion(s)) + " en resolverse." : "Se resuelve enseguida.";
+      if (i === 0 && g.ahora.length > 1 && s) nota += " <strong>Empieza por este:</strong> es el que más tarda.";
+      else if (i > 0) nota += " Puedes moverlo mientras esperas los anteriores.";
+      return tarjeta(item, nota);
+    }).join("");
+
+    var esperando = g.esperando.map(function (item) {
+      var s = item.t.espera_semanas || 0;
+      return tarjeta(item, s ? "Respuesta habitual en " + esc(duracion(s)) + "." : "");
+    }).join("");
+
+    var despues = g.despues.map(function (item) {
+      var nota = "Necesitas antes: " + item.falta.map(function (r) {
+        var dentro = plan[r];
+        return '<a href="#tramite-' + esc(r) + '">' + esc(nombre(r)) + "</a>" + (dentro ? "" : ' <button class="enlace-boton" data-plan="' + esc(r) + '" data-estado="pendiente">(añadir a mi plan)</button>');
+      }).join(", ") + ".";
+      return tarjeta(item, nota, true);
+    }).join("");
+
+    var hechos = g.hechos.map(function (item) { return tarjeta(item, ""); }).join("");
+
+    function bloquePlan(num, titulo, texto, items) {
+      return '<section class="plan-etapa"><div class="plan-etapa__cabecera"><span class="plan-etapa__num" aria-hidden="true">' + num + "</span><div><h2>" + titulo + "</h2>" +
+        (texto ? '<p class="plan-etapa__texto">' + texto + "</p>" : "") + '</div></div><ul class="plan-lista">' + items + "</ul></section>";
+    }
+
+    var n = 0;
     return '<section class="lectura"><p class="etiqueta">Guía</p><h1>Mi plan</h1>' +
-      '<p class="entradilla">Tu lista de trámites. Se guarda solo en este dispositivo: no hace falta registrarse y mapability no recibe estos datos.</p></section>' +
-      (ids.length ? "" : '<p class="vacio">Todavía no has añadido ningún trámite. Abre un <a href="#guia">itinerario</a> y pulsa «Añadir a mi plan».</p>') +
-      (pendientes.length ? '<section class="seccion"><h2>Por hacer (' + pendientes.length + ")</h2>" + lista(pendientes) + "</section>" : "") +
-      (hechos.length ? '<section class="seccion"><h2>Hechos (' + hechos.length + ")</h2>" + lista(hechos) + "</section>" : "");
+      '<p class="entradilla">Tus trámites, en el orden que más os conviene: primero lo que tarda más, y mientras esperáis, lo demás. Se guarda solo en este dispositivo.</p>' +
+      (g.total ? '<p class="plan-resumen">' + (g.esperando.length || g.hechos.length ? "Con lo que os queda" : "Si empezáis hoy") + ', todo podría estar resuelto en <strong>' + esc(duracion(g.total)) + "</strong>. Es una estimación orientativa: los plazos reales cambian.</p>" : "") +
+      "</section>" +
+      (hay ? "" : '<p class="vacio">Todavía no has añadido ningún trámite. Abre un <a href="#guia">itinerario</a> y pulsa «Añadir todos a mi plan».</p>') +
+      (g.ahora.length ? bloquePlan(++n, "Podéis pedirlo ya", "Empezad por lo que más tarda: así la espera corre mientras avanzáis con lo demás.", ahora) : "") +
+      (g.esperando.length ? bloquePlan(++n, "En marcha", "Ya lo habéis pedido. Os avisamos de lo que suele tardar.", esperando) : "") +
+      (g.despues.length ? bloquePlan(++n, "Cuando tengáis lo anterior", "Estos trámites necesitan que otro esté resuelto primero.", despues) : "") +
+      (g.hechos.length ? bloquePlan("✓", "Resueltos", "", hechos) : "");
   }
 
   /* ---------- mapa ---------- */
@@ -516,6 +605,79 @@
       (pasados.length ? '<section class="seccion"><h2>Grabaciones</h2><div class="webinars">' + pasados.map(tarjeta).join("") + "</div></section>" : "");
   }
 
+  /* ---------- noticias ---------- */
+
+  // El texto de los artículos llega del panel como HTML: solo se dejan pasar etiquetas de texto y enlaces seguros.
+  var ETIQUETAS = { P: 1, H2: 1, H3: 1, UL: 1, OL: 1, LI: 1, STRONG: 1, B: 1, EM: 1, I: 1, A: 1, BLOCKQUOTE: 1, BR: 1, IMG: 1, FIGURE: 1, FIGCAPTION: 1 };
+  function limpiarHtml(html) {
+    var doc = new DOMParser().parseFromString("<div>" + (html || "") + "</div>", "text/html");
+    function limpiar(nodo) {
+      Array.prototype.slice.call(nodo.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) return;
+        if (n.nodeType !== 1 || !ETIQUETAS[n.tagName]) {
+          if (n.nodeType === 1 && !/^(SCRIPT|STYLE|IFRAME|OBJECT|EMBED)$/.test(n.tagName)) {
+            limpiar(n);
+            while (n.firstChild) nodo.insertBefore(n.firstChild, n);
+          }
+          nodo.removeChild(n);
+          return;
+        }
+        Array.prototype.slice.call(n.attributes).forEach(function (a) {
+          var ok = (n.tagName === "A" && a.name === "href" && /^https?:\/\//i.test(a.value)) ||
+            (n.tagName === "IMG" && (a.name === "alt" || (a.name === "src" && /^(https:\/\/|assets\/)/i.test(a.value))));
+          if (!ok) n.removeAttribute(a.name);
+        });
+        if (n.tagName === "A") { n.setAttribute("target", "_blank"); n.setAttribute("rel", "noopener"); }
+        limpiar(n);
+      });
+    }
+    var raiz = doc.body.firstChild;
+    limpiar(raiz);
+    return raiz.innerHTML;
+  }
+
+  function rutaImagen(src) {
+    if (!src) return "";
+    src = String(src).replace(/^\//, "");
+    return /^https:\/\//i.test(src) || /^assets\//.test(src) ? src : "";
+  }
+
+  function tarjetaNoticia(n) {
+    var img = rutaImagen(n.imagen);
+    return '<a class="noticia" href="#noticia-' + esc(n.id) + '">' +
+      (img ? '<img class="noticia__img" src="' + esc(img) + '" alt="" loading="lazy">' : '<span class="noticia__img noticia__img--vacia" aria-hidden="true"></span>') +
+      '<span class="noticia__meta">' + esc(CATEGORIAS[n.categoria] || n.categoria || "") + " · " + esc(fechaLarga(n.fecha)) + "</span>" +
+      '<span class="noticia__titulo">' + esc(n.titulo) + "</span>" +
+      '<span class="noticia__resumen">' + esc(n.resumen) + "</span>" + chipBorrador(n) + "</a>";
+  }
+
+  var filtroNoticias = "";
+  function vistaNoticias() {
+    var cats = Object.keys(CATEGORIAS).filter(function (c) { return datos.noticias.some(function (n) { return n.categoria === c; }); });
+    var lista = datos.noticias.filter(function (n) { return !filtroNoticias || n.categoria === filtroNoticias; });
+    return '<section class="lectura"><p class="etiqueta">Noticias</p><h1>Novedades para familias</h1>' +
+      '<p class="entradilla">Ayudas, investigación y recursos, explicados en lenguaje claro y siempre con su fuente.</p></section>' +
+      (cats.length > 1 ? '<div class="chips filtro-noticias" role="group" aria-label="Filtrar por tema">' +
+        ['<button class="chip' + (!filtroNoticias ? " chip--activo" : "") + '" data-categoria="" aria-pressed="' + !filtroNoticias + '">Todas</button>'].concat(cats.map(function (c) {
+          return '<button class="chip' + (filtroNoticias === c ? " chip--activo" : "") + '" data-categoria="' + c + '" aria-pressed="' + (filtroNoticias === c) + '">' + esc(CATEGORIAS[c]) + "</button>";
+        })).join("") + "</div>" : "") +
+      (lista.length ? '<div class="noticias">' + lista.map(tarjetaNoticia).join("") + "</div>" : '<p class="vacio">Todavía no hay noticias publicadas.</p>');
+  }
+
+  function vistaNoticia(id) {
+    var n = porId(datos.noticias, id);
+    if (!n) return vistaNoEncontrada();
+    var img = rutaImagen(n.imagen), fuente = enlaceSeguro(n.fuente_enlace);
+    return '<p class="miga"><a href="#noticias">Noticias</a></p>' +
+      '<article class="articulo"><header class="lectura"><div class="chips"><span class="chip">' + esc(CATEGORIAS[n.categoria] || n.categoria || "") + "</span>" + chipBorrador(n) + "</div>" +
+      "<h1>" + esc(n.titulo) + '</h1><p class="entradilla">' + esc(n.resumen) + "</p>" +
+      '<p class="articulo__meta">' + esc(n.autor || "Equipo de mapability") + " · " + esc(fechaLarga(n.fecha)) + "</p></header>" +
+      (img ? '<img class="articulo__img" src="' + esc(img) + '" alt="">' : "") +
+      '<div class="articulo__cuerpo">' + limpiarHtml(n.cuerpo) + "</div>" +
+      (n.fuente_nombre || fuente ? '<p class="articulo__fuente">Fuente: ' + (fuente ? '<a href="' + esc(fuente) + '" target="_blank" rel="noopener">' + esc(n.fuente_nombre || fuente) + "</a>" : esc(n.fuente_nombre)) + "</p>" : "") +
+      "</article>";
+  }
+
   function vistaAcerca() {
     return '<section class="lectura"><p class="etiqueta">Sobre mapability</p><h1>Quiénes somos</h1>' +
       "<p>mapability es un proyecto de dos psicólogos clínicos con experiencia en fundaciones que trabajan con personas con discapacidad. Queremos que ninguna familia tenga que averiguar sola qué le corresponde y a dónde ir.</p>" +
@@ -536,7 +698,8 @@
     { prefijo: "tramite-", seccion: "guia", vista: vistaTramite },
     { prefijo: "centro-", seccion: "mapa", vista: vistaCentro },
     { prefijo: "glosario-", seccion: "glosario", vista: vistaTermino },
-    { prefijo: "mapa-", seccion: "mapa", vista: vistaMapa, mapa: true }
+    { prefijo: "mapa-", seccion: "mapa", vista: vistaMapa, mapa: true },
+    { prefijo: "noticia-", seccion: "noticias", vista: vistaNoticia }
   ];
   var FIJAS = {
     inicio: { vista: vistaInicio },
@@ -545,6 +708,7 @@
     mapa: { vista: function () { return vistaMapa(""); }, mapa: true },
     glosario: { vista: vistaGlosario },
     formacion: { vista: vistaFormacion },
+    noticias: { vista: vistaNoticias },
     acerca: { vista: vistaAcerca }
   };
 
@@ -587,8 +751,24 @@
   });
 
   main.addEventListener("click", function (e) {
+    var cat = e.target.closest("[data-categoria]");
+    if (cat) {
+      filtroNoticias = cat.getAttribute("data-categoria");
+      pintar(true);
+      return;
+    }
+    var todos = e.target.closest("[data-plan-todos]");
+    if (todos) {
+      var it = porId(datos.itinerarios, todos.getAttribute("data-plan-todos"));
+      var plan = leerPlan();
+      (it ? it.pasos : []).forEach(function (p) { if (!plan[p.tramite]) plan[p.tramite] = "pendiente"; });
+      guardarPlan(plan);
+      location.hash = "mi-plan";
+      return;
+    }
     var b = e.target.closest("[data-plan]");
     if (!b) return;
+    e.preventDefault();
     cambiarEstado(b.getAttribute("data-plan"), b.getAttribute("data-estado"));
     var y = window.scrollY;
     pintar(true);

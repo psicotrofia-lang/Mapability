@@ -12,6 +12,7 @@
   ],
   "donde": "Ayuntamiento de tu municipio.",
   "plazos": "Se renueva cada cierto tiempo según el ayuntamiento.",
+  "espera_semanas": 6,
   "enlace_oficial": "https://www.madrid.es",
   "enlace_texto": "Ayuntamiento de Madrid",
   "fuente": "Pendiente de añadir la fuente oficial",
@@ -19,6 +20,9 @@
   "relacionados": [
     "content/tramites/certificado-discapacidad.json",
     "content/tramites/tarjeta-discapacidad.json"
+  ],
+  "requiere": [
+    "content/tramites/certificado-discapacidad.json"
   ],
   "terapias": [],
   "borrador": true

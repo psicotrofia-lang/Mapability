@@ -1,0 +1,12 @@
+{
+  "titulo": "Así funcionará la sección de noticias",
+  "fecha": "2026-10-28",
+  "categoria": "mapability",
+  "resumen": "Un espacio para compartir novedades sobre ayudas, investigación y recursos que pueden interesar a las familias. Este artículo es un ejemplo de cómo se verán.",
+  "imagen": "",
+  "cuerpo": "<p>En esta sección el equipo de mapability publicará artículos pensados para las familias: cambios en ayudas y trámites, avances de investigación explicados en lenguaje claro, recursos nuevos en la Comunidad de Madrid y experiencias de otras familias.</p><h2>Qué encontraréis</h2><ul><li><strong>Ayudas y trámites:</strong> convocatorias abiertas, plazos y cambios en la normativa.</li><li><strong>Investigación:</strong> estudios relevantes, explicados sin tecnicismos y con su fuente.</li><li><strong>Recursos:</strong> centros, actividades de ocio inclusivo y deporte adaptado.</li></ul><p>Cada artículo indicará su fuente y la fecha de publicación.</p>",
+  "fuente_nombre": "",
+  "fuente_enlace": "",
+  "autor": "Equipo de mapability",
+  "borrador": true
+}

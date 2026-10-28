@@ -8,7 +8,7 @@ import { join, basename } from "node:path";
 const RAIZ = new URL("..", import.meta.url).pathname;
 const CONTENIDO = join(RAIZ, "content");
 const SALIDA = join(RAIZ, "datos");
-const TIPOS = ["tramites", "itinerarios", "centros", "glosario", "webinars"];
+const TIPOS = ["tramites", "itinerarios", "centros", "glosario", "webinars", "noticias"];
 
 const errores = [];
 const avisos = [];
@@ -45,6 +45,8 @@ datos.comunidades = leerJson(join(CONTENIDO, "comunidades.json")) || [];
 const lista = (v) => (Array.isArray(v) ? v : v ? [v] : []);
 for (const t of datos.tramites) {
   t.relacionados = lista(t.relacionados).map(aId);
+  t.requiere = lista(t.requiere).map(aId);
+  t.espera_semanas = Number(t.espera_semanas) || 0;
   t.terapias = lista(t.terapias).map(aId);
   t.documentos = lista(t.documentos).filter(Boolean);
 }
@@ -63,6 +65,7 @@ for (const w of datos.webinars) w.tramites = lista(w.tramites).map(aId);
 for (const it of datos.itinerarios) {
   it.pasos = lista(it.pasos).map((p) => ({ ...p, tramite: aId(p.tramite) }));
 }
+datos.noticias.sort((a, b) => String(b.fecha || "").localeCompare(String(a.fecha || "")));
 datos.itinerarios.sort((a, b) => (a.orden ?? 99) - (b.orden ?? 99));
 
 // Avisa de enlaces a fichas que ya no existen.
@@ -75,9 +78,21 @@ const comprobar = (origen, valores, conjunto, tipo) => {
 datos.tramites.forEach((t) => {
   comprobar(`El trámite "${t.titulo}"`, t.relacionados, tramites, "trámites");
   comprobar(`El trámite "${t.titulo}"`, t.terapias, glosario, "el glosario");
+  comprobar(`El trámite "${t.titulo}"`, t.requiere, tramites, "trámites");
 });
 datos.centros.forEach((c) => comprobar(`El centro "${c.nombre}"`, c.terapias, glosario, "el glosario"));
 datos.itinerarios.forEach((it) => comprobar(`El itinerario "${it.titulo}"`, it.pasos.map((p) => p.tramite), tramites, "trámites"));
+
+// Un trámite no puede depender de sí mismo, ni directa ni indirectamente.
+const porIdTramite = Object.fromEntries(datos.tramites.map((t) => [t.id, t]));
+function enCiclo(id, visto = new Set()) {
+  if (visto.has(id)) return true;
+  visto.add(id);
+  return (porIdTramite[id]?.requiere || []).some((r) => enCiclo(r, new Set(visto)));
+}
+datos.tramites.forEach((t) => {
+  if (enCiclo(t.id)) errores.push(`El trámite "${t.titulo}" acaba dependiendo de sí mismo en «Hay que tener antes». Revisa esos campos.`);
+});
 
 avisos.forEach((a) => console.warn("Aviso: " + a));
 if (errores.length) {

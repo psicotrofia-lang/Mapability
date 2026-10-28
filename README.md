@@ -10,7 +10,7 @@ Se puede usar en el ordenador y en el móvil, y se puede instalar en el móvil c
 
 | Carpeta o archivo | Qué hay dentro |
 | --- | --- |
-| `content/` | Las fichas. Una ficha por archivo: `tramites/`, `itinerarios/`, `centros/`, `glosario/` y `webinars/`. |
+| `content/` | Las fichas. Una ficha por archivo: `tramites/`, `itinerarios/`, `centros/`, `glosario/`, `webinars/` y `noticias/`. |
 | `content/comunidades.json` | Las comunidades autónomas y cuáles están abiertas. |
 | `.pages.yml` | La configuración del panel de edición. |
 | `index.html`, `assets/` | La web en sí: diseño y funcionamiento. |
