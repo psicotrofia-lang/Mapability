@@ -17,7 +17,7 @@
   var AMBITOS = { estatal: "Estatal", autonomico: "Comunidad", municipal: "Municipio" };
   var FINANCIACION = { publico: "Público", concertado: "Concertado", privado: "Privado" };
   var TIPOS_GLOSARIO = { terapia: "Terapias", deporte: "Deporte y ocio", termino: "Palabras de los trámites" };
-  var CATEGORIAS = { ayudas: "Ayudas y trámites", investigacion: "Investigación", terapias: "Terapias", educacion: "Educación", ocio: "Ocio y deporte", familias: "Familias", mapability: "Novedades de mapability" };
+  var CATEGORIAS = { ayudas: "Ayudas y trámites", investigacion: "Investigación", politica: "Política", terapias: "Terapias", educacion: "Educación", ocio: "Ocio y deporte", familias: "Familias", mapability: "Novedades de mapability" };
   var MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 
   /* ---------- utilidades ---------- */

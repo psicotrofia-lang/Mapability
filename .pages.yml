@@ -430,6 +430,8 @@ content:
               label: Ayudas y trámites
             - name: investigacion
               label: Investigación
+            - name: politica
+              label: Política
             - name: terapias
               label: Terapias
             - name: educacion
