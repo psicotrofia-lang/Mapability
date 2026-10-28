@@ -1,0 +1,26 @@
+{
+  "titulo": "Prestación por hijo o hija a cargo con discapacidad",
+  "resumen": "Una asignación económica de la Seguridad Social para familias con un hijo o hija con discapacidad.",
+  "ambito": "estatal",
+  "comunidad": "",
+  "que_es": "Es una prestación económica periódica de la Seguridad Social. Es igual en toda España.",
+  "quien_puede": "Familias con un hijo o hija menor de 18 años con un grado de discapacidad igual o superior al 33 %, o mayor de edad con un grado igual o superior al 65 %. Hay otros requisitos que conviene confirmar.",
+  "documentos": [
+    "Solicitud oficial",
+    "DNI o NIE de las personas solicitantes",
+    "Libro de familia",
+    "Resolución del grado de discapacidad"
+  ],
+  "donde": "Instituto Nacional de la Seguridad Social, en su sede electrónica o con cita previa en un centro de atención.",
+  "plazos": "Se puede pedir en cualquier momento desde que se tiene el certificado.",
+  "enlace_oficial": "https://www.seg-social.es",
+  "enlace_texto": "Seguridad Social",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/beneficios-fiscales.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

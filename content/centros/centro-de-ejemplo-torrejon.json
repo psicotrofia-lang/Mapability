@@ -1,0 +1,31 @@
+{
+  "nombre": "Centro de ejemplo Torrejón",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Torrejón de Ardoz",
+  "distrito": "",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28850",
+  "lat": 40.456,
+  "lng": -3.475,
+  "terapias": [
+    "content/glosario/psicologia.json",
+    "content/glosario/musicoterapia.json",
+    "content/glosario/logopedia.json"
+  ],
+  "edad_min": 2,
+  "edad_max": 18,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

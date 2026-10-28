@@ -1,0 +1,38 @@
+{
+  "orden": 1,
+  "titulo": "Acabamos de recibir un diagnóstico",
+  "subtitulo": "O tenemos una sospecha y no sabemos por dónde empezar.",
+  "intro": "Respira. No hace falta hacerlo todo esta semana. Este es el orden que suele funcionar mejor en la Comunidad de Madrid.",
+  "comunidad": "madrid",
+  "pasos": [
+    {
+      "tramite": "content/tramites/servicios-sociales.json",
+      "nota": "Una trabajadora social puede acompañaros en casi todo lo que viene después."
+    },
+    {
+      "tramite": "content/tramites/atencion-temprana.json",
+      "nota": "Si tu hijo o hija tiene menos de 6 años, es lo más urgente: no necesita certificado."
+    },
+    {
+      "tramite": "content/tramites/certificado-discapacidad.json",
+      "nota": "Pídelo pronto: tarda meses y abre la puerta a casi todas las ayudas."
+    },
+    {
+      "tramite": "content/tramites/valoracion-dependencia.json",
+      "nota": "Se puede pedir a la vez que el certificado."
+    },
+    {
+      "tramite": "content/tramites/prestacion-hijo-cargo.json",
+      "nota": "Cuando tengáis la resolución del certificado."
+    },
+    {
+      "tramite": "content/tramites/beneficios-fiscales.json",
+      "nota": "En la próxima declaración de la renta, o antes si pedís el cobro anticipado."
+    },
+    {
+      "tramite": "content/tramites/familia-numerosa.json",
+      "nota": "Si tenéis dos o más hijos."
+    }
+  ],
+  "borrador": true
+}

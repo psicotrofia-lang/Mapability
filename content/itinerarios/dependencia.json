@@ -1,0 +1,22 @@
+{
+  "orden": 3,
+  "titulo": "Queremos pedir la dependencia",
+  "subtitulo": "Para conseguir servicios o una prestación por los cuidados en casa.",
+  "intro": "La dependencia tiene dos partes: primero se valora el grado y después se acuerdan los apoyos en el PIA.",
+  "comunidad": "madrid",
+  "pasos": [
+    {
+      "tramite": "content/tramites/servicios-sociales.json",
+      "nota": "Suelen tramitar la solicitud y os acompañan en el PIA."
+    },
+    {
+      "tramite": "content/tramites/valoracion-dependencia.json",
+      "nota": "Guarda copia de todo lo que presentes."
+    },
+    {
+      "tramite": "content/tramites/certificado-discapacidad.json",
+      "nota": "Si aún no lo tenéis, pedidlo a la vez."
+    }
+  ],
+  "borrador": true
+}

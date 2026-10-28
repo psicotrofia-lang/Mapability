@@ -1,0 +1,24 @@
+{
+  "titulo": "Tarjeta acreditativa de discapacidad",
+  "resumen": "Una tarjeta con el grado reconocido para no tener que llevar la resolución en papel.",
+  "ambito": "autonomico",
+  "comunidad": "madrid",
+  "que_es": "Documento de bolsillo que acredita el grado de discapacidad reconocido. Sirve para descuentos en transporte, ocio y cultura, y para identificarse en muchos trámites.",
+  "quien_puede": "Personas con un grado de discapacidad reconocido igual o superior al 33 %.",
+  "documentos": [
+    "Resolución del grado de discapacidad",
+    "Fotografía reciente"
+  ],
+  "donde": "Comunidad de Madrid. En algunos casos se pide a la vez que el certificado.",
+  "plazos": "Tiene la misma validez que el certificado; hay que renovarla si el grado se revisa.",
+  "enlace_oficial": "https://www.comunidad.madrid",
+  "enlace_texto": "Comunidad de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/tarjeta-estacionamiento.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

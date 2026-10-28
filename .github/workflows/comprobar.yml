@@ -1,0 +1,19 @@
+# Comprueba que todas las fichas se pueden leer antes de unir cambios a main.
+name: Comprobar fichas
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Leer y comprobar las fichas
+        run: node scripts/construir.mjs

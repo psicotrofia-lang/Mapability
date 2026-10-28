@@ -1,0 +1,27 @@
+{
+  "titulo": "Escolarización con apoyos",
+  "resumen": "Cómo se decide en qué tipo de centro y con qué apoyos se escolariza a tu hijo o hija.",
+  "ambito": "autonomico",
+  "comunidad": "madrid",
+  "que_es": "Los equipos de orientación educativa hacen una evaluación psicopedagógica y emiten un dictamen de escolarización. El dictamen propone la modalidad: centro ordinario con apoyos, centro preferente para un perfil concreto, centro de educación especial o escolarización combinada.",
+  "quien_puede": "Alumnado con necesidades educativas especiales, en cualquier etapa desde infantil.",
+  "documentos": [
+    "Informes médicos y psicológicos",
+    "Certificado de discapacidad si lo tenéis (no es obligatorio)"
+  ],
+  "donde": "Habla con la dirección o la orientación del centro educativo. Si aún no está escolarizado, con el equipo de orientación de tu zona.",
+  "plazos": "Antes del proceso de admisión escolar de cada curso, que suele ser en primavera.",
+  "enlace_oficial": "https://www.comunidad.madrid",
+  "enlace_texto": "Comunidad de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/beca-neae.json",
+    "content/tramites/atencion-temprana.json"
+  ],
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/psicologia.json"
+  ],
+  "borrador": true
+}

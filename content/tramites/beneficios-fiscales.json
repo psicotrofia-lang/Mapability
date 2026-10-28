@@ -1,0 +1,24 @@
+{
+  "titulo": "Beneficios fiscales en la declaración de la renta",
+  "resumen": "Tener un hijo o hija con discapacidad reconocida reduce lo que pagáis en el IRPF y puede dar derecho a una deducción.",
+  "ambito": "estatal",
+  "comunidad": "",
+  "que_es": "La declaración de la renta aplica un mínimo mayor por descendiente con discapacidad y existe una deducción por descendiente con discapacidad que en algunos casos se puede cobrar por adelantado cada mes. La Comunidad de Madrid puede tener deducciones propias.",
+  "quien_puede": "Familias con un hijo o hija con un grado de discapacidad igual o superior al 33 %.",
+  "documentos": [
+    "Resolución del grado de discapacidad",
+    "Datos fiscales de la unidad familiar"
+  ],
+  "donde": "Agencia Tributaria, en la declaración anual o en su sede electrónica para el cobro anticipado.",
+  "plazos": "En la campaña de la renta de cada año. El cobro anticipado se puede pedir en cualquier momento.",
+  "enlace_oficial": "https://sede.agenciatributaria.gob.es",
+  "enlace_texto": "Agencia Tributaria",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/familia-numerosa.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

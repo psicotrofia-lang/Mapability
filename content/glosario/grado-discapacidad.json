@@ -1,0 +1,12 @@
+{
+  "nombre": "Grado de discapacidad",
+  "tipo": "termino",
+  "resumen": "El porcentaje que figura en el certificado de discapacidad. Desde el 33 % se considera discapacidad a efectos legales.",
+  "que_es": "Es la valoración, en porcentaje, de las limitaciones de una persona según un baremo oficial. Los tramos más importantes son el 33 %, el 65 % y el 75 %, porque abren distintos derechos.",
+  "a_quien_ayuda": "",
+  "como_es_sesion": "",
+  "quien_la_imparte": "",
+  "red_publica": "",
+  "evidencia": "",
+  "borrador": true
+}

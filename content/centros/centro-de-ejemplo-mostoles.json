@@ -1,0 +1,32 @@
+{
+  "nombre": "Centro de ejemplo Móstoles",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Móstoles",
+  "distrito": "",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28931",
+  "lat": 40.322,
+  "lng": -3.865,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/psicomotricidad.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

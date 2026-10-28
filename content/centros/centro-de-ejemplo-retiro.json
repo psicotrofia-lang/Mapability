@@ -1,0 +1,30 @@
+{
+  "nombre": "Centro de ejemplo Retiro",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Madrid",
+  "distrito": "Retiro",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28009",
+  "lat": 40.4115,
+  "lng": -3.676,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/psicologia.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 18,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

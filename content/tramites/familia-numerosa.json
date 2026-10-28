@@ -1,0 +1,26 @@
+{
+  "titulo": "Título de familia numerosa",
+  "resumen": "Un hijo o hija con discapacidad cuenta como dos, así que muchas familias con dos hijos ya pueden pedirlo.",
+  "ambito": "autonomico",
+  "comunidad": "madrid",
+  "que_es": "Título que da descuentos en transporte, matrículas, tasas y otros servicios. La ley es estatal, pero el título lo expide la Comunidad de Madrid.",
+  "quien_puede": "Familias con tres o más hijos, o con dos hijos cuando al menos uno tiene discapacidad reconocida, entre otros casos.",
+  "documentos": [
+    "Solicitud oficial",
+    "Libro de familia",
+    "DNI o NIE de las personas progenitoras",
+    "Resolución del grado de discapacidad"
+  ],
+  "donde": "Comunidad de Madrid, de forma presencial o por la sede electrónica.",
+  "plazos": "Se puede pedir en cualquier momento. Hay que renovarlo cuando cambian las circunstancias o caduca.",
+  "enlace_oficial": "https://www.comunidad.madrid",
+  "enlace_texto": "Comunidad de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/beneficios-fiscales.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

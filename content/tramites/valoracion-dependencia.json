@@ -1,0 +1,26 @@
+{
+  "titulo": "Valoración de la dependencia",
+  "resumen": "Reconoce cuánta ayuda necesita tu hijo o hija en su día a día y abre la puerta a servicios y prestaciones.",
+  "ambito": "autonomico",
+  "comunidad": "madrid",
+  "que_es": "Es la valoración que establece si existe situación de dependencia y en qué grado (I, II o III). Después se elabora el Programa Individual de Atención (PIA), que fija los servicios o la prestación económica que corresponden.",
+  "quien_puede": "Personas de cualquier edad, también menores de 3 años con una escala adaptada, que necesiten apoyo de otra persona para actividades de la vida diaria.",
+  "documentos": [
+    "Solicitud oficial",
+    "DNI o NIE",
+    "Informe de salud actualizado",
+    "Certificado de empadronamiento"
+  ],
+  "donde": "Normalmente a través de los servicios sociales de tu municipio, o directamente en la Comunidad de Madrid.",
+  "plazos": "Se puede pedir en cualquier momento. Entre la solicitud y el PIA pueden pasar meses: guarda copia de todo lo que presentes.",
+  "enlace_oficial": "https://www.comunidad.madrid",
+  "enlace_texto": "Comunidad de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/servicios-sociales.json",
+    "content/tramites/certificado-discapacidad.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

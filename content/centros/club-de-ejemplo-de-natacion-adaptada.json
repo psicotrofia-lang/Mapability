@@ -1,0 +1,30 @@
+{
+  "nombre": "Club de ejemplo de natación adaptada",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Madrid",
+  "distrito": "Hortaleza",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28043",
+  "lat": 40.47,
+  "lng": -3.64,
+  "terapias": [
+    "content/glosario/deporte-adaptado.json",
+    "content/glosario/hidroterapia.json"
+  ],
+  "edad_min": 4,
+  "edad_max": 99,
+  "financiacion": "publico",
+  "red_atencion_temprana": false,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

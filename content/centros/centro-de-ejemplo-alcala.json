@@ -1,0 +1,31 @@
+{
+  "nombre": "Centro de ejemplo Alcalá",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Alcalá de Henares",
+  "distrito": "",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28801",
+  "lat": 40.482,
+  "lng": -3.364,
+  "terapias": [
+    "content/glosario/logopedia.json",
+    "content/glosario/fisioterapia.json",
+    "content/glosario/psicomotricidad.json"
+  ],
+  "edad_min": 0,
+  "edad_max": 6,
+  "financiacion": "concertado",
+  "red_atencion_temprana": true,
+  "accesible": true,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}

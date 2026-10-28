@@ -1,0 +1,25 @@
+{
+  "titulo": "Tarjeta de estacionamiento para personas con movilidad reducida",
+  "resumen": "Permite aparcar en plazas reservadas cuando tu hijo o hija va en el coche.",
+  "ambito": "municipal",
+  "comunidad": "madrid",
+  "que_es": "Tarjeta que expide el ayuntamiento para usar las plazas de aparcamiento reservadas. Va asociada a la persona, no al coche.",
+  "quien_puede": "Personas con discapacidad que tengan reconocida movilidad reducida en su certificado, o con determinados grados de discapacidad visual.",
+  "documentos": [
+    "Solicitud del ayuntamiento",
+    "Resolución del grado de discapacidad con el baremo de movilidad",
+    "Fotografía reciente"
+  ],
+  "donde": "Ayuntamiento de tu municipio.",
+  "plazos": "Se renueva cada cierto tiempo según el ayuntamiento.",
+  "enlace_oficial": "https://www.madrid.es",
+  "enlace_texto": "Ayuntamiento de Madrid",
+  "fuente": "Pendiente de añadir la fuente oficial",
+  "revisado": "",
+  "relacionados": [
+    "content/tramites/certificado-discapacidad.json",
+    "content/tramites/tarjeta-discapacidad.json"
+  ],
+  "terapias": [],
+  "borrador": true
+}

@@ -1,0 +1,29 @@
+{
+  "nombre": "Centro ecuestre de ejemplo",
+  "descripcion": "Ficha de ejemplo para el prototipo. Este centro no existe.",
+  "municipio": "Collado Villalba",
+  "distrito": "",
+  "direccion": "Calle de Ejemplo, 1",
+  "cp": "28400",
+  "lat": 40.634,
+  "lng": -4.005,
+  "terapias": [
+    "content/glosario/terapia-asistida-animales.json"
+  ],
+  "edad_min": 3,
+  "edad_max": 99,
+  "financiacion": "privado",
+  "red_atencion_temprana": false,
+  "accesible": false,
+  "idiomas": [
+    "español"
+  ],
+  "telefono": "",
+  "email": "",
+  "web": "",
+  "horario": "De lunes a viernes, de 9:00 a 20:00",
+  "verificado": "",
+  "destacado": false,
+  "comunidad": "madrid",
+  "borrador": true
+}
