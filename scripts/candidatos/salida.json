@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T14:28:50.597Z",
+ "generado": "2026-10-28T14:31:34.198Z",
  "atencion_temprana": [
   {
    "municipio": "Alcalá de Henares",
@@ -12,10 +12,10 @@
    "web": "www.aphisa.es",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.4920501,
-    "lng": -3.3621142,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.4920883288936,
+    "lng": -3.3621382853029593,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -31,8 +31,8 @@
    "geo": {
     "lat": 40.5373967,
     "lng": -3.6387875,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "fuente": "OpenStreetMap",
+    "precision": "calle"
    }
   },
   {
@@ -46,10 +46,10 @@
    "web": "www.apansa.es",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.347632833539635,
-    "lng": -3.8123829662900444,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.34766233568448,
+    "lng": -3.81245825201811,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -63,10 +63,10 @@
    "web": "www.integrandes.org",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.02733393656697,
-    "lng": -3.5994718535473043,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.027218662969204,
+    "lng": -3.5994896604330413,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -80,10 +80,10 @@
    "web": "www.integrandes.org",
    "horario": "L-V 11:30-19:30",
    "geo": {
-    "lat": 40.0267692,
-    "lng": -3.6006772,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.026865092049114,
+    "lng": -3.6009745095767776,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -97,10 +97,10 @@
    "web": "www.asociacionapsa.es",
    "horario": "L-V 08:30-17:00",
    "geo": {
-    "lat": 40.3146306,
-    "lng": -3.4536225,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.31217928060187,
+    "lng": -3.4514514759675654,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -114,10 +114,10 @@
    "web": "www.andaconmigo.com/cat/boadilla",
    "horario": "L-V 10:00-14:00 y 16:00-20:00",
    "geo": {
-    "lat": 40.40768794970465,
-    "lng": -3.8763058688276666,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.407312354599824,
+    "lng": -3.8764188012188963,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -131,10 +131,10 @@
    "web": "www.apascovifundacion.org",
    "horario": "L-J 08:30-19:15; V 08:30-17:00",
    "geo": {
-    "lat": 40.6343625,
-    "lng": -4.0229607,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.6339437,
+    "lng": -4.0241368,
+    "fuente": "OpenStreetMap",
+    "precision": "calle"
    }
   },
   {
@@ -148,10 +148,10 @@
    "web": "www.asprodico.org",
    "horario": "L 09:00-15:00; M-J 09:00-19:00; V 09:00-14:00",
    "geo": {
-    "lat": 40.6632711,
-    "lng": -3.7782172,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.66403834446862,
+    "lng": -3.777610951552203,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -167,8 +167,8 @@
    "geo": {
     "lat": 40.2904845,
     "lng": -3.805807,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "fuente": "OpenStreetMap",
+    "precision": "calle"
    }
   },
   {
@@ -182,10 +182,10 @@
    "web": "www.grupoamas.org",
    "horario": "L-J 08:00-19:30; V 08:00-18:00",
    "geo": {
-    "lat": 40.297577672098704,
-    "lng": -3.805230263067589,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.29963365288686,
+    "lng": -3.8061318202842642,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -199,10 +199,10 @@
    "web": "www.apanid.es",
    "horario": "L-J 09:00-19:00; V 09:00-18:20",
    "geo": {
-    "lat": 40.3153595,
-    "lng": -3.7214973,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.315343220661966,
+    "lng": -3.72149996762553,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -216,10 +216,10 @@
    "web": "www.apanid.es",
    "horario": "L-J 09:00-19:00; V 09:00-18:20",
    "geo": {
-    "lat": 40.3150518,
-    "lng": -3.7209527,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.31503426497655,
+    "lng": -3.7209824821774133,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -233,10 +233,10 @@
    "web": "www.fundacionesfera.com",
    "horario": "L-V 08:30-19:30",
    "geo": {
-    "lat": 40.3234295,
-    "lng": -3.770102,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.323418276095026,
+    "lng": -3.7702251105317153,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -250,10 +250,10 @@
    "web": "www.centroaltea.es",
    "horario": "L-J 09:00-19:30; V 09:00-18:00",
    "geo": {
-    "lat": 40.40059859613216,
-    "lng": -3.7075048028329363,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.39976451255347,
+    "lng": -3.706199663342609,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -267,10 +267,10 @@
    "web": "www.centroanida.es",
    "horario": "L-V 08:00-14:00 y 16:00-20:00",
    "geo": {
-    "lat": 40.4045804,
-    "lng": -3.7013924,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.40454846707589,
+    "lng": -3.701358844856006,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -284,10 +284,10 @@
    "web": "www.grupoenvera.org",
    "horario": "L-V 07:45-20:30",
    "geo": {
-    "lat": 40.46536757142796,
-    "lng": -3.5921335823144522,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.46491136369561,
+    "lng": -3.5918152081505554,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -301,10 +301,10 @@
    "web": "www.grupo-aris.es",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.3833812,
-    "lng": -3.7303222,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.385120600547324,
+    "lng": -3.732859778919261,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -318,10 +318,10 @@
    "web": "www.grupo-aris.es",
    "horario": "L y J 08:00-20:00; M, X, V 15:00-20:00",
    "geo": {
-    "lat": 40.395535906058505,
-    "lng": -3.71503860480096,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.3939465217311,
+    "lng": -3.715273285370066,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -334,7 +334,12 @@
    "email": "info@centroanayet.com",
    "web": "www.centroanayet.com",
    "horario": "L-V 08:00-20:00",
-   "geo": null
+   "geo": {
+    "lat": 40.41133378172878,
+    "lng": -3.6967092642200856,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
+   }
   },
   {
    "municipio": "Madrid",
@@ -346,7 +351,12 @@
    "email": "info@centroanayet.com",
    "web": "www.centroanayet.com",
    "horario": "L-V 08:00-20:00",
-   "geo": null
+   "geo": {
+    "lat": 40.41218716167593,
+    "lng": -3.696589472579876,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
+   }
   },
   {
    "municipio": "Madrid",
@@ -359,10 +369,10 @@
    "web": "www.ameb.es",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 41.0430021,
-    "lng": -3.5407513,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.43881486279514,
+    "lng": -3.676709895596799,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -376,10 +386,10 @@
    "web": "www.downmadrid.org",
    "horario": "L-V 09:00-20:00",
    "geo": {
-    "lat": 40.46752616711978,
-    "lng": -3.6761817905339083,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.46692948088633,
+    "lng": -3.6728333520763816,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -393,10 +403,10 @@
    "web": "www.fundacionjuanxxiii.org/atenciontemprana",
    "horario": "L-V 08:30-18:30",
    "geo": {
-    "lat": 40.5705711,
-    "lng": -3.9047652,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.450833922062905,
+    "lng": -3.6832165162465595,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -410,10 +420,10 @@
    "web": "www.fundacionbobath.org",
    "horario": "L-V 08:30-18:00",
    "geo": {
-    "lat": 40.490797133719596,
-    "lng": -3.7199040839864495,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.49075499866715,
+    "lng": -3.720498728123575,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -427,10 +437,10 @@
    "web": "www.napsis.org",
    "horario": "L-V 12:00-20:00",
    "geo": {
-    "lat": 40.5015369,
-    "lng": -3.6687819,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.499093336811185,
+    "lng": -3.6723804635851316,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -444,10 +454,10 @@
    "web": "www.centroconmigo.com",
    "horario": "L-V 09:00-20:00",
    "geo": {
-    "lat": 40.503471269587216,
-    "lng": -3.709469235856691,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.503738646954034,
+    "lng": -3.6975671346859107,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -461,10 +471,10 @@
    "web": "www.fundacioninstitutosanjose.com",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.363794386658334,
-    "lng": -3.7649473032057914,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.3617956640481,
+    "lng": -3.774635383252489,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -478,10 +488,10 @@
    "web": "www.centroconmigo.com",
    "horario": "L-J 09:00-20:00; V 09:00-19:30",
    "geo": {
-    "lat": 40.4644684,
-    "lng": -3.7987559,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.46435267583927,
+    "lng": -3.7987716971519756,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -495,10 +505,10 @@
    "web": "www.fundacionrailes.org",
    "horario": "L-V 08:30-13:00; L-J 14:30-18:00",
    "geo": {
-    "lat": 40.40697970485057,
-    "lng": -3.6592904756881786,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.40656894488157,
+    "lng": -3.65779102149999,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -512,10 +522,10 @@
    "web": "www.aceops.es",
    "horario": "L-M 09:30-14:00 y 16:00-18:00; J 09:30-14:00 y 16:00-20:00; V 08:00-16:00",
    "geo": {
-    "lat": 40.403137843451326,
-    "lng": -3.6545901786949835,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.402350874791445,
+    "lng": -3.6531146698090846,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -529,10 +539,10 @@
    "web": "www.fundacionrailes.org",
    "horario": "L-V 08:30-13:00; L-J 14:30-18:00",
    "geo": {
-    "lat": 40.3895997,
-    "lng": -3.6387297,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.391373669456286,
+    "lng": -3.6382407368544096,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -546,10 +556,10 @@
    "web": "www.edai.eu",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.40372655081194,
-    "lng": -3.682969056135393,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.40294758397488,
+    "lng": -3.6804960671779208,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -563,10 +573,10 @@
    "web": "www.aspasmadrid.es",
    "horario": "L-J 09:00-15:00 y 16:00-19:00; V 09:00-14:00",
    "geo": {
-    "lat": 40.423486338086384,
-    "lng": -3.6654976410296345,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.42220435193388,
+    "lng": -3.6651740556523555,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -580,10 +590,10 @@
    "web": "www.atenciontemprana.crl.es",
    "horario": "L-V 08:15-20:00",
    "geo": {
-    "lat": 40.432104319569675,
-    "lng": -3.6700782007021577,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.431903039693324,
+    "lng": -3.6694048713871057,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -597,10 +607,10 @@
    "web": "www.fundacionjuanxxiii.org/atenciontemprana",
    "horario": "L-V 08:30-18:30",
    "geo": {
-    "lat": 40.403054,
-    "lng": -3.5960484,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.403142877341885,
+    "lng": -3.5959036281578314,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -614,10 +624,10 @@
    "web": "www.aytona.com",
    "horario": "L-V 09:00-19:30",
    "geo": {
-    "lat": 40.38210450763823,
-    "lng": -3.60551643621605,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.381200445292684,
+    "lng": -3.60690938308666,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -631,10 +641,10 @@
    "web": "www.aceops.es",
    "horario": "L-M 09:30-14:00; J 15:00-19:00; V 12:00-17:00",
    "geo": {
-    "lat": 40.366396002184814,
-    "lng": -3.589963764604467,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.36612339234516,
+    "lng": -3.590430894019719,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -648,10 +658,10 @@
    "web": "www.afandice.org",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.34289465408007,
-    "lng": -3.7044205207983434,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.34315452404356,
+    "lng": -3.7030370809922357,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -665,10 +675,10 @@
    "web": "www.grupoamas.org",
    "horario": "L-V 08:30-19:30",
    "geo": {
-    "lat": 40.3160687,
-    "lng": -3.8618925,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.31567124190366,
+    "lng": -3.861616564390003,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -682,10 +692,10 @@
    "web": "www.adempa.org",
    "horario": "L-V 08:30-14:00 y 15:00-20:30",
    "geo": {
-    "lat": 40.2429453,
-    "lng": -3.7720946,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.24301678440113,
+    "lng": -3.7721100093325655,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -699,10 +709,10 @@
    "web": "www.centroada.es",
    "horario": "L-V 09:30-13:30 y 15:30-20:30",
    "geo": {
-    "lat": 40.238704928521926,
-    "lng": -3.6988467309118573,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.23830632499678,
+    "lng": -3.698473741413943,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -716,10 +726,10 @@
    "web": "www.centrointegralcreciendo.org",
    "horario": "L-V 10:00-14:00 y 16:00-20:00",
    "geo": {
-    "lat": 40.2385467,
-    "lng": -3.702055,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.23945349976298,
+    "lng": -3.7029783946924426,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -732,7 +742,12 @@
    "email": "direccion.atenciontemprana@ampinto.org",
    "web": "www.ampinto.org",
    "horario": "L-V 08:00-20:00",
-   "geo": null
+   "geo": {
+    "lat": 40.2529974,
+    "lng": -3.6993973,
+    "fuente": "OpenStreetMap",
+    "precision": "código postal"
+   }
   },
   {
    "municipio": "Pozuelo de Alarcón",
@@ -747,8 +762,8 @@
    "geo": {
     "lat": 40.44047997104347,
     "lng": -3.7865319850089456,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -762,10 +777,10 @@
    "web": "www.aspadir.org",
    "horario": "L-J 09:00-14:00 y 16:00-18:00; V 09:00-14:00",
    "geo": {
-    "lat": 40.3613856,
-    "lng": -3.5436475,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.36120044735646,
+    "lng": -3.5436562548477952,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -779,10 +794,10 @@
    "web": "www.aspimip.org",
    "horario": "L y X 09:00-19:00; M 09:00-14:30; J 09:00-20:00; V 09:00-18:00",
    "geo": {
-    "lat": 40.4145175,
-    "lng": -3.5217166,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.41452175185063,
+    "lng": -3.5217547611291398,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -796,10 +811,10 @@
    "web": "www.apadis.es",
    "horario": "L-J 09:00-18:00; V 08:30-15:00",
    "geo": {
-    "lat": 40.5609789,
-    "lng": -3.6320448,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.56083572204603,
+    "lng": -3.6332540466307304,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -813,10 +828,10 @@
    "web": "www.dacer.org",
    "horario": "L-J 09:00-14:00 y 16:00-20:00; V 09:00-14:00",
    "geo": {
-    "lat": 40.5638254,
-    "lng": -3.6124204,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.563024012170985,
+    "lng": -3.612715464565267,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -830,10 +845,10 @@
    "web": "www.astor-inlade.es",
    "horario": "L-V 08:00-20:00",
    "geo": {
-    "lat": 40.463057,
-    "lng": -3.4875179,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.46459236947686,
+    "lng": -3.4605587321250053,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -847,10 +862,10 @@
    "web": "www.citocentro.org",
    "horario": "L-J 08:00-19:00; V 08:00-17:00",
    "geo": {
-    "lat": 40.5761838758778,
-    "lng": -3.9579795425016258,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.576636421416445,
+    "lng": -3.958411617470974,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -863,7 +878,12 @@
    "email": "info@centrointeractua.com",
    "web": "www.centrointeractua.com",
    "horario": "L-V 09:00-16:00",
-   "geo": null
+   "geo": {
+    "lat": 40.60666667288915,
+    "lng": -3.7176069669440754,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
+   }
   },
   {
    "municipio": "Valdemoro",
@@ -876,10 +896,10 @@
    "web": "www.amival.org",
    "horario": "L-V 09:30-13:30 y 15:00-18:00",
    "geo": {
-    "lat": 40.17927680409947,
-    "lng": -3.6811593563854914,
-    "precision": "calle",
-    "fuente": "CartoCiudad"
+    "lat": 40.17912936231104,
+    "lng": -3.680882905948689,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   },
   {
@@ -892,7 +912,12 @@
    "email": "jares2@hotmail.com",
    "web": "www.fundacionjares.org",
    "horario": "L-J 09:00-19:00; V 08:00-14:00",
-   "geo": null
+   "geo": {
+    "lat": 40.45609200275009,
+    "lng": -3.993389013439213,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
+   }
   },
   {
    "municipio": "Villaviciosa de Odón",
@@ -905,10 +930,10 @@
    "web": "www.atencionintegral.es",
    "horario": "L-J 09:00-14:00 y 16:00-20:00; V 09:00-14:00",
    "geo": {
-    "lat": 40.3582813,
-    "lng": -3.9108519,
-    "precision": "aproximada",
-    "fuente": "Nominatim"
+    "lat": 40.36000863910344,
+    "lng": -3.909739542482399,
+    "fuente": "CartoCiudad",
+    "precision": "calle"
    }
   }
  ],
