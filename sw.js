@@ -1,7 +1,7 @@
 /* mapability · funcionamiento sin conexión
    Guarda la web y las fichas para que la guía y el glosario se puedan consultar sin internet.
    Al cambiar archivos de la web, sube el número de VERSION. */
-var VERSION = "mapability-v3";
+var VERSION = "mapability-v4";
 var BASE = [
   "./",
   "index.html",
@@ -32,12 +32,13 @@ self.addEventListener("activate", function (e) {
   }).then(function () { return self.clients.claim(); }));
 });
 
-/* Primero la red (para ver siempre las fichas más recientes) y, si no hay conexión, la copia guardada. */
+/* Primero la red, sin usar la caché del navegador (para ver siempre la última versión publicada),
+   y, si no hay conexión, la copia guardada. */
 self.addEventListener("fetch", function (e) {
   var url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== self.location.origin) return;
   e.respondWith(
-    fetch(e.request).then(function (r) {
+    fetch(e.request.url, { cache: "no-cache" }).then(function (r) {
       var copia = r.clone();
       caches.open(VERSION).then(function (c) { c.put(e.request, copia); });
       return r;
